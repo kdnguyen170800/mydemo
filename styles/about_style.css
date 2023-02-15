@@ -1,0 +1,47 @@
+#Leminh {
+	color: green;
+}
+
+#DucManh {
+	color: cyan;
+}
+
+#Khang {
+	color: red;
+}
+
+#Hai {
+	color: purple;
+}
+
+table, th, td {
+  border: 			1px solid black;
+  border-collapse: 	collapse;
+  table-layout: 	fixed;
+  width: 			100%;
+  line-height: 		2;
+}
+
+td {
+	text-align: 	center;
+}
+
+aside {
+	float:			right;
+	padding:		10px;
+	width:			10%;
+}
+
+dd {
+	font-size:		125%;
+	line-height:	2;
+}
+
+dt {
+	font-size:		200%;
+}
+
+dl {
+	padding-left:	5%;
+	padding-right:	5%;
+}
