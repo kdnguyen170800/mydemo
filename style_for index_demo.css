@@ -1,58 +1,89 @@
 /* temporary css for index.html */
 
-html {
+
+
+
+* {
   margin: 0;
+  padding: 0;
 }
 
-body {
-  margin: 0;
+a {
+  text-decoration: none;
+  color: #171717;
 }
 
 nav {
   width: 100%;
+  float: right;  
+  background-color: whitesmoke;
   position: sticky;
-    top:0
+    top: 0px;
 }
 
 nav ul li {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.9em;
+  font-weight: bold;
+
   list-style: none;
-  float: left;
-  font-size: 93%;
-  width: 19%;
-  background-image: linear-gradient(red, yellow);
+  float: right;
+  
+  width: 10%;
+
   text-align: center;
-  padding: auto;
-  padding: 3% 1%;
-  border: 1px solid black;
+  padding: 20px 0;
+  border: 0px solid black;
+ 
 }
 
 footer {
   padding-top: 30px;
-  background-color: black;
-}
-
-footer ul li {
-  list-style: none;
-  float: left;
-  font-size: 93%;
-  width: 19%;
-  background-image: linear-gradient(red, yellow);
-  text-align: center;
-  padding: auto;
-  padding: 3% 1%;
-  border: 1px solid black;
+  border: 1px solid aliceblue;
+  background-color: azure;
 }
 
 section {
   margin: 0 10% 0 10%
 }
 
+.button-container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.logo {
+  height: 25px;
+  background-image: none;
+  float: left;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+
 #cover-img {
-  height: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
 }
 
 #intro-sentence {
