@@ -5,16 +5,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Enquiry page">
     <meta name="keywords" content="HTML5/CSS">
     <meta name="author" content="Duy Khang Nguyen">
-    <title></title>
+    <title>Enquiry page</title>
     <link href="styles/style.css" rel="stylesheet">
     <link href="" rel="stylesheet">
 </head>
 
 <body>
+    <form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
+        <fieldset>
+            <legend>PERSONAL INFORMATION</legend>
+            <div>
+                <label for="title">TITLE</label>
+                <select required id="title" name="title">
+                    <option value="" disabled selected>Please Select</option>
+                    <option value="mr">Mr.</option>
+                    <option value="ms">Ms.</option>
+                    <option value="mrs">Mrs.</option>
+                </select>
+            </div>
 
+            <div>
+                <label for="firstname">FIRST NAME</label>
+                <input required id="firstname" name="firstname" type="text" pattern="[A-Za-z]{1,25}" title="maximum 25 alphabetical characters">
+                <label for="lastname">LAST NAME</label>
+                <input required id="lastname" name="lastname" type="text" pattern="[A-Za-z]{1,25}" title="maximum 25 alphabetical characters">
+            </div>
+
+            <div>
+                <label for="email">EMAIL ADDRESS</label>
+                <input required id="email" name="email" type="email">
+                <label for="phonenumber">PHONE NUMBER</label>
+                <input required id="phonenumber" name="phonenumber" type="text" pattern="\d{1,10}]" title="maximum 10 digits" placeholder="038 748 2345">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>ADDRESS</legend>
+            <div>
+                <label for="street">STREET ADDRESS</label>
+                <input required id="street" name="street" type="text" pattern=".{1,40}" title="maximum 40 characters">
+                <label for="town">SUBURB/ TOWN</label>
+                <input required id="town" name="town" type="text" pattern=".{1,20}" title="maximum 20 characters">
+            </div>
+
+            <div>
+                <label for="state">STATE</label>
+                <select required id="state" name="state">
+                    <option value="vic">VIC</option>
+                    <option value="nsw">NSW</option>
+                    <option value="qld">QLD</option>
+                    <option value="nt">NT</option>
+                    <option value="wa">WA</option>
+                    <option value="sa">SA</option>
+                    <option value="tas">TAS</option>
+                    <option value="act">ACT</option>
+                </select>
+                <label for="postcode">POSTCODE</label>
+                <input required id="postcode" name="postcode" type="text" pattern="\d{4}" title="exactly 4 digits">
+            </div>
+
+            <div>
+                <label>PREFERRED CONTACT</label>
+                <label><input required type="radio" id="prefercontact" name="prefercontact" value="email">Email</label>
+                <label><input type="radio" id="prefercontact" name="prefercontact" value="post">Post</label>
+                <label><input type="radio" id="prefercontact" name="prefercontact" value="phone">Phone</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>ENQUIRY</legend>
+            <div>
+                <label for="product">PRODUCT</label>
+                <select required id="product" name="product">
+                    <option value="" disabled selected>Please Select</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                </select>
+                <label>PRODUCT FEATURES</label>
+                <label>Material</label>
+                <input type="checkbox" id="material" name="features[]" value="material">
+                <label>Water resistance</label>
+                <input type="checkbox" id="water" name="features[]" value="water">
+                <label>Watch movement</label>
+                <input type="checkbox" id="movement" name="features[]" value="movement">
+                <label>Strap</label>
+                <input type="checkbox" id="strap" name="features[]" value="strap">
+            </div>
+
+            <div>
+                <label for="comment">COMMENT</label>
+                <textarea id="comment" name="comment" rows="5" cols="30" placeholder="Write description of your problem here..."></textarea>
+            </div>
+        </fieldset>
+
+        <button type="submit" value="book">Book</button>
+        <button type="reset" value="reset">Reset form</button>
+    </form>
 </body>
 
 </html>
