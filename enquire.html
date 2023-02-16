@@ -14,53 +14,67 @@
 </head>
 
 <body>
-    <h2>ENQUIRY PAGE</h2>
+    <h1>ENQUIRY PAGE</h1>
     <div id="enquiry_text">
         <p>Time is valuable. We strive to bring best quality pieces for you to tell time. We bring you the best value.
-        </p>
-        <p>We are more than happy to answer any questions you may have about our products.</p>
+            We are more than happy to answer any questions you may have about our products.</p>
     </div>
     <form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
         <fieldset>
             <legend>PERSONAL INFORMATION</legend>
             <div class="form_line">
-                <label for="title">TITLE</label>
-                <select required id="title" name="title">
-                    <option value="" disabled selected>Please Select</option>
-                    <option value="mr">Mr.</option>
-                    <option value="ms">Ms.</option>
-                    <option value="mrs">Mrs.</option>
-                </select>
+                <div class="box">
+                    <label for="title">TITLE</label>
+                    <select required id="title" name="title">
+                        <option value="mr">Mr.</option>
+                        <option value="ms">Ms.</option>
+                        <option value="mrs">Mrs.</option>
+                    </select>
+                </div>
             </div>
 
             <div class="form_line">
-                <label for="firstname">FIRST NAME</label>
-                <input required id="firstname" name="firstname" type="text" pattern="[A-Za-z]{1,25}"
-                    title="maximum 25 alphabetical characters">
-                <label for="lastname">LAST NAME</label>
-                <input required id="lastname" name="lastname" type="text" pattern="[A-Za-z]{1,25}"
-                    title="maximum 25 alphabetical characters">
+                <div class="box">
+                    <label for="firstname">FIRST NAME</label>
+                    <input required id="firstname" name="firstname" type="text" pattern="[A-Za-z]{1,25}"
+                        title="maximum 25 alphabetical characters">
+                </div>
+                <div class="box">
+                    <label for="lastname">LAST NAME</label>
+                    <input required id="lastname" name="lastname" type="text" pattern="[A-Za-z]{1,25}"
+                        title="maximum 25 alphabetical characters">
+                </div>
             </div>
 
             <div class="form_line">
-                <label for="email">EMAIL ADDRESS</label>
-                <input required id="email" name="email" type="email">
-                <label for="phonenumber">PHONE NUMBER</label>
-                <input required id="phonenumber" name="phonenumber" type="text" pattern="\d{1,10}]"
-                    title="maximum 10 digits" placeholder="038 748 2345">
+                <div class="box">
+                    <label for="email">EMAIL ADDRESS</label>
+                    <input required id="email" name="email" type="email">
+                </div>
+                <div class="box">
+                    <label for="phonenumber">PHONE NUMBER</label>
+                    <input required id="phonenumber" name="phonenumber" type="text" pattern="\d{1,10}]"
+                        title="maximum 10 digits" placeholder="038 748 2345">
+                </div>
             </div>
         </fieldset>
 
         <fieldset>
-            <legend>ADDRESS</legend>
+            <legend>ADDRESS INFORMATION</legend>
             <div class="form_line">
-                <label for="street">STREET ADDRESS</label>
-                <input required id="street" name="street" type="text" pattern=".{1,40}" title="maximum 40 characters">
-                <label for="town">SUBURB/ TOWN</label>
-                <input required id="town" name="town" type="text" pattern=".{1,20}" title="maximum 20 characters">
+                <div class="box">
+                    <label for="street">STREET ADDRESS</label>
+                    <input required id="street" name="street" type="text" pattern=".{1,40}"
+                        title="maximum 40 characters">
+                </div>
+                <div class="box">
+                    <label for="town">SUBURB/ TOWN</label>
+                    <input required id="town" name="town" type="text" pattern=".{1,20}" title="maximum 20 characters">
+                </div>
             </div>
 
             <div class="form_line">
+                <div class="box">
                 <label for="state">STATE</label>
                 <select required id="state" name="state">
                     <option value="vic">VIC</option>
@@ -71,7 +85,8 @@
                     <option value="sa">SA</option>
                     <option value="tas">TAS</option>
                     <option value="act">ACT</option>
-                </select>
+                </select></div>
+                <div class="box">
                 <label for="postcode">POSTCODE</label>
                 <input required id="postcode" name="postcode" type="text" pattern="\d{4}" title="exactly 4 digits">
             </div>
