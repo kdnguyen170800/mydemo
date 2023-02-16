@@ -10,14 +10,20 @@
     <meta name="author" content="Duy Khang Nguyen">
     <title>Enquiry page</title>
     <link href="styles/style.css" rel="stylesheet">
-    <link href="" rel="stylesheet">
+    <link href="styles/enquire_style.css" rel="stylesheet">
 </head>
 
 <body>
+    <h2>ENQUIRY PAGE</h2>
+    <div id="enquiry_text">
+        <p>Time is valuable. We strive to bring best quality pieces for you to tell time. We bring you the best value.
+        </p>
+        <p>We are more than happy to answer any questions you may have about our products.</p>
+    </div>
     <form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
         <fieldset>
             <legend>PERSONAL INFORMATION</legend>
-            <div>
+            <div class="form_line">
                 <label for="title">TITLE</label>
                 <select required id="title" name="title">
                     <option value="" disabled selected>Please Select</option>
@@ -27,31 +33,34 @@
                 </select>
             </div>
 
-            <div>
+            <div class="form_line">
                 <label for="firstname">FIRST NAME</label>
-                <input required id="firstname" name="firstname" type="text" pattern="[A-Za-z]{1,25}" title="maximum 25 alphabetical characters">
+                <input required id="firstname" name="firstname" type="text" pattern="[A-Za-z]{1,25}"
+                    title="maximum 25 alphabetical characters">
                 <label for="lastname">LAST NAME</label>
-                <input required id="lastname" name="lastname" type="text" pattern="[A-Za-z]{1,25}" title="maximum 25 alphabetical characters">
+                <input required id="lastname" name="lastname" type="text" pattern="[A-Za-z]{1,25}"
+                    title="maximum 25 alphabetical characters">
             </div>
 
-            <div>
+            <div class="form_line">
                 <label for="email">EMAIL ADDRESS</label>
                 <input required id="email" name="email" type="email">
                 <label for="phonenumber">PHONE NUMBER</label>
-                <input required id="phonenumber" name="phonenumber" type="text" pattern="\d{1,10}]" title="maximum 10 digits" placeholder="038 748 2345">
+                <input required id="phonenumber" name="phonenumber" type="text" pattern="\d{1,10}]"
+                    title="maximum 10 digits" placeholder="038 748 2345">
             </div>
         </fieldset>
 
         <fieldset>
             <legend>ADDRESS</legend>
-            <div>
+            <div class="form_line">
                 <label for="street">STREET ADDRESS</label>
                 <input required id="street" name="street" type="text" pattern=".{1,40}" title="maximum 40 characters">
                 <label for="town">SUBURB/ TOWN</label>
                 <input required id="town" name="town" type="text" pattern=".{1,20}" title="maximum 20 characters">
             </div>
 
-            <div>
+            <div class="form_line">
                 <label for="state">STATE</label>
                 <select required id="state" name="state">
                     <option value="vic">VIC</option>
@@ -67,7 +76,7 @@
                 <input required id="postcode" name="postcode" type="text" pattern="\d{4}" title="exactly 4 digits">
             </div>
 
-            <div>
+            <div class="form_line">
                 <label>PREFERRED CONTACT</label>
                 <label><input required type="radio" id="prefercontact" name="prefercontact" value="email">Email</label>
                 <label><input type="radio" id="prefercontact" name="prefercontact" value="post">Post</label>
@@ -77,7 +86,7 @@
 
         <fieldset>
             <legend>ENQUIRY</legend>
-            <div>
+            <div class="form_line">
                 <label for="product">PRODUCT</label>
                 <select required id="product" name="product">
                     <option value="" disabled selected>Please Select</option>
@@ -90,6 +99,9 @@
                     <option value="">7</option>
                     <option value="">8</option>
                 </select>
+            </div>
+
+            <div class="form_line">
                 <label>PRODUCT FEATURES</label>
                 <label>Material</label>
                 <input type="checkbox" id="material" name="features[]" value="material">
@@ -103,7 +115,8 @@
 
             <div>
                 <label for="comment">COMMENT</label>
-                <textarea id="comment" name="comment" rows="5" cols="30" placeholder="Write description of your problem here..."></textarea>
+                <textarea id="comment" name="comment" rows="5" cols="30"
+                    placeholder="Write description of your problem here..."></textarea>
             </div>
         </fieldset>
 
