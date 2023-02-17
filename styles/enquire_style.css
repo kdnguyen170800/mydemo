@@ -26,16 +26,18 @@ p {
 
 form {
     width: 80vw;
-    max-width: 820px;
+    max-width: 840px;
     min-width: 400px;
     margin: 0 auto;
-    padding: 30px 20px;
+    padding: 0px 20px 30px 20px;
     border: 1px solid red;
 }
 
 fieldset {
     border: 1px solid blue;
-    margin-bottom: 40px;
+    margin: 40px 0;
+    padding: 10px;
+    /* border: 0; */
 }
 
 legend {
@@ -53,27 +55,32 @@ legend {
 
 .box {
     width: calc(50% - 20px);
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .main_label {
     font-size: x-small;
-    letter-spacing: 1px;
+    letter-spacing: 2.5px;
     font-weight: bolder;
 }
+
+.main_label::after {
+    content: "*";
+    color: red;
+  }
 
 input[type='text'],
 input[type='email'],
 select {
     background: transparent;
     border: none;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
     width: 100%;
     height: 60px;
     font-size: large;
     font-family: serif;
     font-weight: lighter;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 input[type='text'],
@@ -84,7 +91,7 @@ select:focus {
 
 #radio_box {
     height: 60px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-size: large;
     display: flex;
     align-items: center;
@@ -104,6 +111,59 @@ select:focus {
 }
 
 #radio_box div {
+    /* border: 1px solid orange; */
+    /* width: 30% */
+}
+
+#checkbox_box {
+    /* border: 1px solid black; */
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    font-size: large;
+}
+
+#checkbox_box div {
+    /*border: 1px solid orange;*/
+    /* width: 23%; */
+}
+
+#checkbox_box::before {
+    content: "";
+}
+
+#checkbox_box::after {
+    content: "";
+}
+
+#checkbox_box label {
+    font-family: serif;
+}
+
+#comment_label {
+    font-size: x-small;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+#comment_line {
+    display: flex;
+    align-items: top;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    font-family: serif;
+    font-size: large;
+    margin: 10px 0 0 0;
+    border: 1px solid lightgray;
+}
+
+#button_container {
     border: 1px solid orange;
-    width: 30%
+    justify-content: center;
+    display: flex;
 }

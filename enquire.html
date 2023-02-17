@@ -77,6 +77,7 @@
                 <div class="box">
                     <label for="state" class="main_label">STATE</label>
                     <select required id="state" name="state">
+                        <option value="" disabled selected>Please select</option>
                         <option value="vic">VIC</option>
                         <option value="nsw">NSW</option>
                         <option value="qld">QLD</option>
@@ -117,41 +118,57 @@
         <fieldset>
             <legend>ENQUIRY</legend>
             <div class="form_line">
-                <label for="product">PRODUCT</label>
-                <select required id="product" name="product">
-                    <option value="" disabled selected>Please Select</option>
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                    <option value="">5</option>
-                    <option value="">6</option>
-                    <option value="">7</option>
-                    <option value="">8</option>
-                </select>
+                <div class="box">
+                    <label for="product" class="main_label">PRODUCT</label>
+                    <select required id="product" name="product">
+                        <option value="" disabled selected>Please select</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                    </select>
+                </div>
             </div>
 
             <div class="form_line">
-                <label>PRODUCT FEATURES</label>
-                <label>Material</label>
-                <input type="checkbox" id="material" name="features[]" value="material">
-                <label>Water resistance</label>
-                <input type="checkbox" id="water" name="features[]" value="water">
-                <label>Watch movement</label>
-                <input type="checkbox" id="movement" name="features[]" value="movement">
-                <label>Strap</label>
-                <input type="checkbox" id="strap" name="features[]" value="strap">
+                <label class="main_label">PRODUCT FEATURES</label>
+                <div id="checkbox_box">
+                    <div>
+                        <input checked="true" type="checkbox" id="material" name="features[]" value="material">
+                        <label>Material</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="water" name="features[]" value="water">
+                        <label>Water resistance</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="movement" name="features[]" value="movement">
+                        <label>Watch movement</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="strap" name="features[]" value="strap">
+                        <label>Strap</label>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <label for="comment">COMMENT</label>
-                <textarea id="comment" name="comment" rows="5" cols="30"
-                    placeholder="Write description of your problem here..."></textarea>
+            <div class="form_line">
+                <div class="box">
+                    <label id="comment_label" for="comment">COMMENT</label>
+                    <textarea id="comment" name="comment"
+                        placeholder="Write description of your problem here..."></textarea>
+                </div>
             </div>
         </fieldset>
 
-        <button type="submit" value="book">Book</button>
-        <button type="reset" value="reset">Reset form</button>
+        <div id="button_container">
+            <button type="submit" value="book">Submit</button>
+            <button type="reset" value="reset">Reset</button>
+        </div>
     </form>
 </body>
 
