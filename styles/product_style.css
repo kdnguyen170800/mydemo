@@ -6,12 +6,6 @@
     --border-hover: 3.2px dashed var(--main-color);
 }
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: serif;
-}
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 90px;
@@ -44,7 +38,6 @@ h6 {
 body {
     width: 100%;
 }
-
 
 /* The header section starts */
 #header .logo { 
