@@ -1,8 +1,8 @@
 
 :root {
     --main-color: #7068a4;
-    --border-radius: 95% 4% 97% 5%/4% 94% 3% 95%;
-    --border: 3.2px solid var(--main-color);
+    /* --border-radius: 95% 4% 97% 5%/4% 94% 3% 95%; */
+    --border: 1px solid #1a001a;
     --border-hover: 3.2px dashed var(--main-color);
 }
 
@@ -12,13 +12,13 @@ html {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 45px;
     line-height: 64px;
     color: #100C08;
 }
 
 h2 {
-    font-size: 46px;
+    font-size: 40px;
     line-height: 54px;
     color: #100C08;
 }
@@ -118,24 +118,34 @@ body {
     justify-content: center;
 }
 
-#banner h4 {
-    padding-bottom: 15px;
+#banner h1 {
+    /* color: #1A001A; */
+    color: whitesmoke;
 }
 
-#banner h1 {
+#banner h2 {
+    /* color: #1A001A; */
+    color: whitesmoke;
+}
+
+#banner h4 {
+    padding-bottom: 15px;
+    /* color: white; */
     color: #1A001A;
 }
 
 #banner button {
     display: inline-block;
     padding: 14.4px 24px;
+    letter-spacing: 1.5px;
     border-radius: var(--border-radius);
-    color: var(--main-color);
+    color: #1A001A;
     background: none;
     border: var(--border);
     cursor: pointer;
     margin-top: 16px;
-    font-size: 27.2px
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
 #banner button:hover {
@@ -396,4 +406,3 @@ footer .copyright {
     text-align: center;
 }
 /* The footer section ends  */
-
