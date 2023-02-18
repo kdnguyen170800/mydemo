@@ -2,7 +2,7 @@
 :root {
     --main-color: #7068a4;
     /* --border-radius: 95% 4% 97% 5%/4% 94% 3% 95%; */
-    --border: 1px solid #1a001a;
+    --border: 2px solid #1a001a;
     --border-hover: 3.2px dashed var(--main-color);
 }
 
@@ -264,6 +264,14 @@ body {
 /* The product section ends */
 
 
+/* The title of sm-banner starts */
+#title-banner {
+    padding: 40px 80px;
+    text-align: center;
+    color: #1A001A;
+}
+/* The title of sm-banner ends */
+
 /* The small banner section starts */
 #sm-banner {
     display: flex;
@@ -291,23 +299,23 @@ body {
 
 #sm-banner h4 {
     color: #755a3f;
-    font-size: 14px;
+    font-size: 30px;
     font-weight: 800;
 }
 
 #sm-banner .banner-box2 h4 {
-    color: #b8c0e4;
+    color: #4c3429;
     /* color: #1A001A; */
 }
 
 #sm-banner p {
     color: #755a3f;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 800;
 }
 
 #sm-banner .banner-box2 p {
-    color: #b8c0e4;
+    color: #4c3429;
     /* color: #1A001A; */
 }
 
@@ -326,8 +334,8 @@ body {
 }
 
 #sm-banner .banner-box2 button {
-    color: #b8c0e4;
-    border: 3.2px solid #b8c0e4;
+    color: #4c3429;
+    border: 3.2px solid #4c3429;
     /* color: #1A001A;
     border: 3.2px solid #1A001A; */
 }
@@ -352,7 +360,7 @@ footer {
 }
 
 footer .logo { 
-    color: var(--main-color);
+    color: #fff;
     font-size: 36.8px;
     text-decoration: none;
     font-size: 150%;
@@ -369,7 +377,7 @@ footer .col {
 footer h4 {
     font-size: 22px;
     padding-bottom: 20px;
-    color: #b8c0e4;
+    color: #fff;
 }
 
 footer .col li {
