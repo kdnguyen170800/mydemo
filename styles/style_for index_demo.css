@@ -308,7 +308,9 @@ footer .copyright {
   display: inline-block;
 }
 
-
+#zoom-opa-ef:hover .watch {
+  opacity: 100%;
+}
 
 .watch-outline {
   color: #fff;
@@ -329,13 +331,13 @@ footer .copyright {
   margin: auto;
   padding-top: 2em;
   width: 90%;
-  opacity: 60%;
-  transition: 2s;
+  transition: 1.5s;
+  opacity: 70%;
 }
 
 .watch:hover {
   width: 100%;
   margin: auto;
-  opacity: 100%;
   padding-top: 0;
+  opacity: 100%;
 }
