@@ -3,14 +3,13 @@
 }
 
 body {
-  padding: 0%;
-  margin: 0%;
+  padding: 0;
+  margin: 0;
 }
 
 h6 {
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: bold;
-  margin-bottom: 0.8em;
 }
 
 #ill1 {
@@ -21,12 +20,12 @@ h6 {
 }
 
 #section1 {
-  background-color: blue;
-  margin-bottom: 250px;
+  background-color: black;
 }
 
 #hr1 {
-  width: 5em;
+  margin-left: 6em;
+  width: 30%;
 }
 
 #txt1 {
@@ -38,15 +37,15 @@ h6 {
     top: 750px;
 }
 
-#title1 {
-  margin: 3em;
-  padding-left: 4em;
+#title1 h6 {
+  padding: 5% 20% 3% 10%;
+  font-size: 3em;
 }
 
 #desc1 {
   font-size: 2em;
   font-weight: 900;
-  padding: 0 3.5em;
+  padding: 3% 10% 2% 10%;
 }
 
 #zoom-opa-ef {
@@ -65,13 +64,10 @@ h6 {
   display: block;
   background-color: black;
   width: 20%;
-  height: 20em;
+  height: 30em;
   float: left;
-  margin: 6em 0;
-}
-
-.watch-outline:hover .watch-underlayer img {
-  visibility: initial;
+  padding: 3em 0;
+  margin-top: 400px;
 }
 
 .watch {
@@ -99,116 +95,108 @@ h6 {
 }
 
 #section2 {
-  padding-top: 10%;
+  padding: 10% 0;
   width: 50%;
   position: relative;
   float: left;
-  margin: 5em 0;
 }
 
-.title2 {
-  margin: 2em 1em;
-  padding-left: 3em;
-  padding-right: 3em;
+.title2 h6 {
+  font-size: 2.2em;
+  padding: 6% 12% 4% 12%;
 }
 
 #txt2 {
-  margin: 0 10% 200px 10%;
-  background-color: white;
+  margin: 0 10%;
   border: 1px solid black;
   position: absolute;
-    top: 88%; 
+    top: 70%; 
   background-color: white;
   position: absolute;
 }
 
 .desc2 {
-  font-size: 1.2em;
-  font-weight: 900;
-  padding-left: 3em;
-  padding-right: 3em;
-  padding-bottom: 30px;
-}
-
-.title2 h6 {
   font-size: 1.3em;
+  font-weight: 900;
+  padding: 4% 12% 6% 12%;
 }
 
-#ill2 {
+#title2 h6 {
+  font-size: 1em;
+}
+
+#ill2 img {
   display: block;
-  width: 90%;
+  width: 92%;
   border: 1px solid black;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 0 4%;
 }
 
+.hr2 {
+  margin: 0 12%;
+  width: 30%;
+}
 
 #section3 {
-  padding-top: 10%;
+  padding: 10% 0;
   width: 50%;
   position: relative;
   float: left;
-  margin: 5em 0;
 }
 
-#ill3 {
+#ill3 img {
   display: block;
-  width: 90%;
+  width: 92%;
   border: 1px solid black;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 0 4%;
 }
 
 #txt3 {
-  margin: 0 10% 200px 10%;
-  background-color: white;
+  margin: 0 10%;
   border: 1px solid black;
   position: absolute;
-    top: 88%; 
+    top: 70%; 
   background-color: white;
   position: absolute;
 }
 
 #section4 {
+  display: block;
+  float: left;
+  margin-bottom: 15%;
   position: relative;
-  background-color: white;
-  margin-bottom: 200px;
-  margin-top: 1000px;
 }
 
 #ill4 {
   display: block;
   width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10% auto;
   border: 1px solid black;
 }
 
 #txt4 {
   display: block;
-  margin-left: 18%;
-  margin-right: 15%;
-  padding-bottom: 3%;
+  margin: 0 15%;
   background-color: white;
   border: 1px solid black;
   position: absolute;
-    top: 87%;
+    top: 80%;
+  min-width: 70%;
 }
 
-#title4 {
-  margin: 2em;
-  padding-left: 4em;
+#title4 h6 {
+  padding: 6% 10% 2% 10%;
 }
 
 #desc4 {
   font-size: 1.7em;
   font-weight: 900;
-  padding: 1em 3.5em;  
+  padding: 5% 10%;  
 }
 
 #hr4 {
   width: 40%;
-  margin-left: 12%;
+  margin-left: 10%;
 }
 
 
