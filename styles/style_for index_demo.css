@@ -12,7 +12,6 @@
 body {
   padding: 0%;
   margin: 0%;
-  background-color: black;
 }
 
 h6 {
@@ -131,8 +130,8 @@ a {
 }
 
 #section2 {
+  padding-top: 10%;
   width: 50%;
-  background-color: black;
   position: relative;
   float: left;
   margin: 5em 0;
@@ -178,8 +177,8 @@ a {
 
 
 #section3 {
+  padding-top: 10%;
   width: 50%;
-  background-color: black;
   position: relative;
   float: left;
   margin: 5em 0;
@@ -204,11 +203,10 @@ a {
 }
 
 #section4 {
-  display: block;
-  background-color: black;
-  margin-bottom: 250px;
-  margin-top: 200px;
   position: relative;
+  background-color: white;
+  margin-bottom: 200px;
+  margin-top: 1000px;
 }
 
 #ill4 {
@@ -216,7 +214,7 @@ a {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid yellow;
+  border: 1px solid black;
 }
 
 #txt4 {
@@ -321,7 +319,8 @@ footer .copyright {
 
 .zoom-opa-ef {
   display: inline-block;
-  margin-bottom: 4em;
+  padding-bottom: 4em;
+  background-color: black;
 }
 
 .zoom-opa-ef:hover .watch {
