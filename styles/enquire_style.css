@@ -1,7 +1,3 @@
-/* *{
-    font-family: Montserrat;
-} */
-
 body {
     width: 100%;
     height: 100vh;
@@ -11,15 +7,18 @@ body {
 }
 
 h1 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     text-align: center;
     padding: 1em auto;
     margin-top: 1em;
     font-family: sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 3px;
 }
 
 p {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     text-align: center;
     margin: 1em auto;
     width: 50vw;
@@ -28,20 +27,28 @@ p {
     font-size: large;
 }
 
+#purple_line {
+    height: 1.5px;
+    border-radius: 45px;
+    width: 60px;
+    background-color: red;
+    margin: 0 auto;
+}
+
 form {
     width: 80vw;
     max-width: 840px;
     min-width: 400px;
     margin: 0 auto;
     padding: 0px 20px 30px 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 fieldset {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 40px 0;
     padding: 10px;
-    /* border: 0; */
+    border: 0;
 }
 
 legend {
@@ -167,7 +174,20 @@ textarea {
 }
 
 #button_container {
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     justify-content: center;
     display: flex;
+}
+
+.button {
+    margin: 20px 15px 15vh 15px;
+    width: 200px;
+    height: 40px;
+    letter-spacing: 2.5px;
+    font-weight: bolder;
+    font-size: smaller;
+    color: white;
+    background-color: var(--nav-background);
+    border: none;
+    letter-spacing: 3px;
 }
