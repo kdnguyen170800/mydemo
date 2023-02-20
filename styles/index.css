@@ -12,6 +12,7 @@
 body {
   padding: 0%;
   margin: 0%;
+  background-color: yellow;
 }
 
 h6 {
@@ -25,7 +26,7 @@ a {
   color: #171717;
 }
 
-#header .logo { 
+nav .logo { 
   /* color: var(--main-color); */
   color: white;
   font-size: 36.8px;
@@ -33,7 +34,7 @@ a {
   font-size: 150%;
 }
 
-#header {
+nav {
   display: flex;
   justify-items: center;
   justify-content: space-between;
@@ -128,6 +129,55 @@ a {
   font-size: 2em;
   font-weight: 900;
   padding: 0 3.5em;
+}
+
+#zoom-opa-ef {
+  display: inline-block;
+  padding-bottom: 4em;
+  background-color: black;
+}
+
+#zoom-opa-ef:hover .watch {
+  opacity: 100%;
+}
+
+.watch-outline {
+  color: #fff;
+  text-align: center;
+  display: block;
+  background-color: black;
+  width: 20%;
+  height: 20em;
+  float: left;
+  margin: 6em 0;
+}
+
+.watch-outline:hover .watch-underlayer img {
+  visibility: initial;
+}
+
+.watch {
+  display: inline;
+  margin: auto;
+  padding-top: 2em;
+  width: 90%;
+  transition: 1.5s;
+  opacity: 70%;
+}
+
+.watch:hover {
+  width: 100%;
+  margin: auto;
+  padding-top: 0;
+  opacity: 100%;
+}
+
+.watch:hover {
+  display:block;
+  width: 100%;
+  margin: auto;
+  padding-top: 0;
+  opacity: 100%;
 }
 
 #section2 {
@@ -314,55 +364,6 @@ footer .copyright {
   width: 100%;
   text-align: center;
   margin-top: 3em;
-}
-
-#zoom-opa-ef {
-  display: inline-block;
-  padding-bottom: 4em;
-  background-color: black;
-}
-
-#zoom-opa-ef:hover .watch {
-  opacity: 100%;
-}
-
-.watch-outline {
-  color: #fff;
-  text-align: center;
-  display: block;
-  background-color: black;
-  width: 20%;
-  height: 20em;
-  float: left;
-  margin: 6em 0;
-}
-
-.watch-outline:hover .watch-underlayer img {
-  visibility: initial;
-}
-
-.watch {
-  display: inline;
-  margin: auto;
-  padding-top: 2em;
-  width: 90%;
-  transition: 1.5s;
-  opacity: 70%;
-}
-
-.watch:hover {
-  width: 100%;
-  margin: auto;
-  padding-top: 0;
-  opacity: 100%;
-}
-
-.watch:hover {
-  display:block;
-  width: 100%;
-  margin: auto;
-  padding-top: 0;
-  opacity: 100%;
 }
 
 .hr0 {
