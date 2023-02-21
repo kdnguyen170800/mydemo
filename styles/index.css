@@ -275,3 +275,27 @@ footer .copyright {
 .hr0 {
   color: white;
 }
+
+@media (max-width: 740px) {
+  #txt1 {
+    top: 85%;
+    margin: 0 5% 0 5%;
+    border: 1px solid black;
+    background-color: white;
+    padding: 3%;
+  }
+  #title1 {
+    font-size: 0.8em;
+  }
+  #desc1 {
+    font-size: 1em;
+    padding: 3% 5% 3% 5%;
+  }
+  .watch-outline {
+    display: block;
+    width: 100%;
+    height: 70em;
+    float: left;
+    padding: 40% 0;
+  }
+}
