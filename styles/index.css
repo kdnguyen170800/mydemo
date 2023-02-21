@@ -21,6 +21,7 @@ h6 {
 
 #section1 {
   background-color: black;
+  border-bottom: 1px solid white;
 }
 
 #hr1 {
@@ -29,12 +30,12 @@ h6 {
 }
 
 #txt1 {
-  margin: 0 10% 200px 10%;
+  margin: 0 10% 0 10%;
   border: 1px solid black;
   background-color: white;
   padding-bottom: 50px;
   position: absolute;
-    top: 750px;
+    top: 120%;
 }
 
 #title1 h6 {
@@ -66,8 +67,7 @@ h6 {
   width: 20%;
   height: 30em;
   float: left;
-  padding: 3em 0;
-  margin-top: 400px;
+  padding: 40% 0;
 }
 
 .watch {
