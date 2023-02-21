@@ -61,9 +61,9 @@ header nav {
     font-size: 14px;
 }
 
-/* #nav_bar .active{
+#nav_bar .active{
     color: var(--nav-active);
-} */
+}
 
 #nav_bar a::after {
     content: "";
