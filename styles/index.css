@@ -80,13 +80,6 @@ h6 {
 }
 
 .watch:hover {
-  width: 100%;
-  margin: auto;
-  padding-top: 0;
-  opacity: 100%;
-}
-
-.watch:hover {
   display:block;
   width: 100%;
   margin: auto;
@@ -274,4 +267,72 @@ footer .copyright {
 
 .hr0 {
   color: white;
+}
+
+@media (max-width: 740px) {
+  #hr1 {
+    margin-left: 5%;
+  }
+  #title1 h6 {
+    padding-left: 5%;
+  }
+  #txt1 {
+    top: 85%;
+    margin: 0 5% 0 5%;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+  #title1 {
+    font-size: 0.8em;
+  }
+  #desc1 {
+    font-size: 1em;
+    padding: 3% 5% 3% 5%;
+  }
+  .watch-outline {
+    width: 100%;
+    height: 50em;
+  }
+  .watch {
+    margin: auto;
+    width: 40%;
+    transition: 1.5s;
+    opacity: 100%;
+  }
+  .watch:hover {
+    width: 40%;
+    margin: auto;
+    padding-top: 0;
+    opacity: 100%;
+  }
+  section div p {
+    font-size: 3em;
+  }
+  #section2 {
+    padding: 30% 0;
+    width: 100%;
+  }  
+  #section3 {
+    padding: 30% 0;
+    width: 100%;
+  }
+  #section4 {
+    margin-top: 10%;
+    margin-bottom: 30%;
+  }
+  #txt4 {
+    margin: 0 15%;
+      top: 70%;
+  }
+  #title4 h6 {
+    font-size: 2em;
+  }
+  #desc4 {
+    font-size: 1.5em;
+  }
+  .tagline {
+    width: 100%;
+    text-align: center;
+  }
 }
