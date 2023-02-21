@@ -45,7 +45,6 @@ form {
 }
 
 fieldset {
-    /* border: 1px solid blue; */
     margin: 40px 0;
     padding: 10px;
     border: 0;
@@ -62,6 +61,7 @@ legend {
     flex-wrap: wrap;
     padding: 15px 0;
     justify-content: space-between;
+    /* border: 1px solid yellow; */
 }
 
 .box {
@@ -78,7 +78,7 @@ legend {
 .main_label::after {
     content: "*";
     color: red;
-  }
+}
 
 input[type='text'],
 input[type='email'],
@@ -121,33 +121,34 @@ select:focus {
     font-family: serif;
 }
 
-#radio_box div {
-    /* border: 1px solid orange; */
-    /* width: 30% */
-}
+/* #radio_box div {
+    border: 1px solid orange; 
+    width: 30%
+} */
 
 #checkbox_box {
-    /* border: 1px solid black; */
+    /* border: 1px solid red; */
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: space-between;
     height: 60px;
     font-size: large;
+    padding: 0 20px;
+    flex-wrap: wrap;
 }
 
-#checkbox_box div {
-    /*border: 1px solid orange;*/
-    /* width: 23%; */
-}
+/* #checkbox_box div {
+    border: 1px solid orange;
+} */
 
-#checkbox_box::before {
+/* #checkbox_box::before {
     content: "";
 }
 
 #checkbox_box::after {
     content: "";
-}
+} */
 
 #checkbox_box label {
     font-family: serif;
@@ -180,7 +181,7 @@ textarea {
 }
 
 .button {
-    margin: 20px 15px 15vh 15px;
+    margin: 15px 15px 15vh 15px;
     width: 200px;
     height: 40px;
     letter-spacing: 2.5px;
@@ -190,4 +191,35 @@ textarea {
     background-color: var(--nav-background);
     border: none;
     letter-spacing: 3px;
+    position: relative;
+    z-index: 1;
+}
+
+.button::after {
+    content: "";
+    background: var(--nav-active);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 430ms ease-in;
+}
+
+.button:hover::after {
+    transform: scaleX(1);
+}
+
+@media (max-width: 740px) {
+    .box {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .form_line {
+        padding: 0 0;
+    }
 }
