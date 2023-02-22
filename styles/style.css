@@ -5,6 +5,7 @@ Created by Khang, edited by Hai */
 :root {
     --nav-background: #1A001A;
     --nav-active: #7068a4;
+    --footer: #19677d;
 }
 
 * {
@@ -104,7 +105,7 @@ footer {
     background-repeat: no-repeat;
     background-position: center; */
   
-    background-color: #19677d;
+    background-color:var(--footer) ;
     /* color: #1A001A; */
     color: #ffffff;
     display: flex;
@@ -193,7 +194,7 @@ footer {
     
     /* Header's responsive  */
     header {
-        background-color: var(--nav-background);
+        background-color: var(--footer);
         height: 50px;
         padding: 15% 22%;
     }
