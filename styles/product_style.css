@@ -158,11 +158,12 @@ body {
     border-radius: var(--border-radius);
     color: #1A001A;
     background: none;
-    border: var(--border);
+    border: 3.2px solid #000;
     cursor: pointer;
     margin-top: 16px;
     font-size: 15px;
     text-transform: uppercase;
+    font-weight: 550;
 }
 
 #banner button:hover {
@@ -193,8 +194,9 @@ body {
 #component .co-box:hover {
     box-shadow: 10px 10px 54px rgba(70, 63, 222, 0.2);
     transition: 0.6s ease-out;
-    width: 30%;
-    height: 10%;
+    cursor: pointer;
+    /* width: 30%;
+    height: 10%; */
 }
 
 #component .co-box h6 {
@@ -215,6 +217,106 @@ body {
 }
 /* The component section ends  */
 
+/* The about us section starts */
+#about-us {
+    padding: 40px 80px;
+    text-align: center;
+    color: #1A001A;
+    width: 70%;
+}
+
+#history {
+    background-color: #ccd7e0;
+    padding: 50px;
+    margin: -80px;
+    border-radius: 20px;
+    line-height: 25px;
+}
+
+#history h2 {
+    font-size: 25px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+
+#title {
+    padding-bottom: 110px;
+    margin-left: 390px;
+}
+
+#history p {
+    font-size: 19px;
+    text-align: left;
+}
+
+#history li {
+    list-style: circle;
+    text-align: left;
+    font-size: 19px;
+}
+
+#limited {
+    padding: 40px 80px;
+    text-align: center;
+    color: #c9c9c9;
+    width: 25%;
+    padding: 10px 12px;
+    border: 1px solid var(--main-color);
+    border-radius: 20px;
+    float: right;
+    position: absolute;
+    right: 0;
+    margin-top: -510px;
+    background-color: #100C08;
+}
+
+
+#limited img {
+    width: 100%;
+}
+
+#limited span {
+    padding-bottom: 8px;
+}
+
+#limited h2 {
+    color: #b9b9b9;
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 7px;
+}
+
+#limited h5 {
+    padding-bottom: 6px;
+}
+
+#limited button {
+    display: inline-block;
+    padding: 8px 10px;
+    border-radius: var(--border-radius);
+    background: none;
+    border: 3.2px solid #bfb0b0;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    
+}
+
+#limited button a {
+    text-decoration: none;
+    color: #bfb0b0;
+}
+
+#limited button:hover {
+    opacity: 0.8;
+}
+
+
+
+/* The about us section ends */
+
+
 
 
 /* The product section starts */
@@ -222,6 +324,10 @@ body {
     padding: 40px 80px;
     text-align: center;
     color: #1A001A;
+}
+
+#product h2 {
+    padding-top: 130px;
 }
 
 #product .pro-container {
@@ -283,6 +389,44 @@ body {
     color: white;
     background-color: #1A001A;
     border: none;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table tr th {
+    background-color: #100C08;
+    color: #ffffff;
+    text-align: left;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+}
+
+table tr td {
+    border-bottom: 1px solid #dddddd;
+}
+
+table tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table tr:last-of-type {
+    border-bottom: 2px solid #100C08;
+}
+
+table tr td.active-row {
+    font-weight: bold;
+    color: #100C08;
 }
 /* The product section ends */
 
