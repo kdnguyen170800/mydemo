@@ -104,13 +104,9 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; */
-
-  background-color:var(--footer) ;
   /* color: #1A001A; */
   color: #ffffff;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+
 }
 
 /* footer .logo { 
@@ -193,42 +189,26 @@ footer .copyright {
 #check {
   display: none;
 }
-.checkbtn {
-  position: relative;
-}
-#div-con-con {
-  position: relative;
-}
 #div-container {
   display: none;
-  position: absolute;
+  position: relative;
+  left: -500px;
 }
 .menu-button {
-  /* position: absolute; */
-  /* display: none; */
   width: 35px;
   height: 6px;
   background-color: white;
   margin: 7px 0;
+  border-radius: 20%;
 }
 
 @media (max-width: 740px) {
     
     /* Header's responsive  */
   header {
-      background-color: var(--footer);
+      background-color: var(--nav-background);
       height: 50px;
       padding: 15% 22%;
-  }
-  ul {top: 60px;
-      left: -100%;
-    position: fixed;
-    margin-top: 20%;
-    width: 100%;
-    height: 100%;
-    background: var(--nav-background);
-    text-align: center;
-    transition: all .5s;
   }
   nav ul li {
     display: block;
@@ -254,18 +234,25 @@ footer .copyright {
     padding: 8% 20% 8% 20%;
     float: left;
     border: 0;
-  }
-  .checkbtn {
-    cursor: pointer;
-  }
-  #check:checked ~ ul {
-    left: 0;
-  }
+  }  
   #div-container {
     display: block;
-    position: absolute;
+    cursor: pointer;
   }
 
+  ul {
+  position: fixed;
+    top: 60px;
+    left: -100%;
+  position: fixed;
+  margin-top: 20%;
+  width: 100%;
+  height: 100%;
+  background: var(--nav-background);
+  text-align: center;
+  transition: all .5s;
+  }
+  #check:checked ~ ul {left: 0;}
 
 
     /* Footer's responsive */
