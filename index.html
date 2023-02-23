@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="CHRONO STORE PAGE">
     <meta name="keywords" content="HTML5/CSS">
-    <meta name="author" content="Duy Khang Nguyen">
+    <meta name="author" content="Le Quang Hai">
     <title>CHRONO</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,13 +19,19 @@
 
 <body>
     <!--The header section starts-->
-    <header>
-        <input id="check" type="checkbox">
-        <label class="checkbtn" for="check">
-            <a class="logo">CHRONO</a>
-        </label>                   
+    <header>        
+        <a class="logo" href="#">CHRONO</a>   
+        <nav>
+            <input id="check" type="checkbox">
+            <label class="checkbtn" for="check">
+                <div id="div-container">
+                    <div class="menu-button"></div>
+                    <div class="menu-button"></div>
+                    <div class="menu-button"></div>
+                </div>
+            </label>
         
-        <nav>    
+            
             <ul id="nav_bar">
                 <li class="menu-item"><a class="active" href="index.html">HOME</a></li>
                 <li class="menu-item"><a href="product.html">WATCHES</a></li>
@@ -110,37 +116,48 @@
     <hr class="hr0">
 
     <footer>
-        <div class="col">
+        <section class="col">
             <h4>Contact</h4>
-            <p><strong>Address: </strong>743 Fifth Ave, New York</p>
-            <p><strong>Phone: </strong>(215) 998-8373-3938</p>
-            <p><strong>Hours: </strong>8:00 - 22:00, Mon - Sun</p>
-        </div>
+            <ol>
+                <li>
+                    <strong>Address:</strong>
+                     743 Fifth Ave, New York
+                </li>
+                <li>
+                    <strong>Phone:</strong>
+                    (215) 998-8373-3938
+                </li>
+                <li>
+                    <strong>Hours:</strong>
+                     8:00 - 22:00, Mon - Sun
+                </li>
+            </ol>
+        </section>
 
-        <div class="col">
-            <ol><h4>About</h4>
+        <!-- <section class="col">
+            <h4>About</h4>
+            <ol>
                 <li><a href="#">Delivery Information</a></li>
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ol>
-        </div>
+        </section> -->
 
-        <div class="col">
+        <!-- <section class="col">
             <h4>My Account</h4>
-            <a href="#">Sign In</a>
-            <a href="#">View Cart</a>
-            <a href="#">Help</a>
-        </div>
+            <ol>
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#">View Cart</a></li>
+                <li><a href="#">Help</a></li>
+            </ol>
+        </section> -->
 
-        <aside class="tagline">
-            <h4>Tagline</h4>
-            <p>Life is yours</p>
-            <p>Time is yours</p>
-        </aside>
-
-        <div class="copyright">
-            <p>© 2023 CHRONO - All intellectual property rights reserved</p>
-        </div>
+        <section class="copyright">
+            <p>
+                © 2023 CHRONO 
+                <!-- - All intellectual property rights reserved -->
+            </p>
+        </section>
     </footer>
 </body>
 </html>

@@ -1,3 +1,7 @@
+/* This is the stylesheet for index.html
+Created by Le Quang Hai */
+
+
 * {
   font-family: Montserrat;
 }
@@ -193,78 +197,6 @@ h6 {
 }
 
 
-
-footer {
-  padding: 40px 80px;
-  /* background-image: url(/images/component1.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
-
-  background-color: #19677d;
-  /* color: #1A001A; */
-  color: #ffffff;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-footer .logo { 
-  color: #fff;
-  font-size: 36.8px;
-  text-decoration: none;
-  font-size: 150%;
-  margin-bottom: 30px;
-}
-
-footer .col {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 20px;
-}
-
-footer h4 {
-  font-size: 22px;
-  padding-bottom: 20px;
-  color: #fff;
-}
-
-footer .col li {
-  list-style: none;
-  margin-bottom: 10px;
-}
-
-footer .col ol li a {
-  text-decoration: none;
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-footer p {
-  font-size: 19px;
-  margin: 0 0 0 8px;
-}
-
-footer a {
-  font-size: 16px;
-  text-decoration: none;
-  color: white;
-  margin-bottom: 10px;
-}
-
-footer a:hover {
-  color: #7068a4;
-  opacity: 0.8;
-  transition: 0.4s ease-in-out;
-}
-
-footer .copyright {
-  width: 100%;
-  text-align: center;
-  margin-top: 3em;
-}
-
 .hr0 {
   color: white;
 }
@@ -330,9 +262,5 @@ footer .copyright {
   }
   #desc4 {
     font-size: 1.5em;
-  }
-  .tagline {
-    width: 100%;
-    text-align: center;
   }
 }
