@@ -1,4 +1,3 @@
-
 :root {
     --main-color: #7068a4;
     /* --border-radius: 95% 4% 97% 5%/4% 94% 3% 95%; */
@@ -23,7 +22,7 @@ h2 {
     color: #100C08;
 }
 
-h4 {
+h4.product_h4 {
     font-size: 19px;
     color: #100C08;
 }
@@ -40,7 +39,7 @@ body {
 }
 
 /* The header section starts */
-#header .logo { 
+#header .logo {
     /* color: var(--main-color); */
     color: white;
     font-size: 36.8px;
@@ -127,7 +126,7 @@ body {
     height: 100vh;
     width: 100%;
     background-size: cover;
-    background-position: top -80px right 0 ;
+    background-position: top -80px right 0;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
@@ -170,6 +169,7 @@ body {
     opacity: 0.7;
     transition: 0.4s ease-out;
 }
+
 /* The banner section ends  */
 
 /* The component section starts  */
@@ -215,6 +215,7 @@ body {
     width: 100%;
     margin-bottom: 10px;
 }
+
 /* The component section ends  */
 
 /* The about us section starts */
@@ -222,6 +223,7 @@ body {
     padding: 40px 80px;
     text-align: center;
     color: #1A001A;
+
 }
 
 #history {
@@ -257,7 +259,6 @@ body {
 }
 
 #limited {
-    padding: 40px 80px;
     text-align: center;
     color: #c9c9c9;
     width: 25%;
@@ -300,7 +301,7 @@ body {
     cursor: pointer;
     margin-top: 10px;
     font-size: 18px;
-    
+
 }
 
 #limited button a {
@@ -311,7 +312,6 @@ body {
 #limited button:hover {
     opacity: 0.8;
 }
-
 
 
 /* The about us section ends */
@@ -353,7 +353,7 @@ body {
 }
 
 #product .pro:hover {
-    box-shadow: 20px 20px 30px rgba(0 , 0, 0, 0.5);
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
 }
 
 #product .pro img {
@@ -428,6 +428,7 @@ table tr td.active-row {
     font-weight: bold;
     color: #100C08;
 }
+
 /* The product section ends */
 
 
@@ -437,6 +438,7 @@ table tr td.active-row {
     text-align: center;
     color: #1A001A;
 }
+
 /* The title of sm-banner ends */
 
 /* The small banner section starts */
@@ -511,80 +513,12 @@ table tr td.active-row {
     opacity: 0.5;
     transition: 0.4s ease-out;
 }
+
 /* The small banner section ends */
-
-
-/* The footer section starts  */
-footer {
-    padding: 40px 80px;
-    /* background-color: #b8c0e4; */
-    background-color: #1A001A;
-    /* color: #1A001A; */
-    color: #b8c0e4;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-footer .logo { 
-    color: #fff;
-    font-size: 36.8px;
-    text-decoration: none;
-    font-size: 150%;
-    margin-bottom: 30px;
-}
-
-footer .col {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 20px;
-}
-
-footer h4 {
-    font-size: 22px;
-    padding-bottom: 20px;
-    color: #fff;
-}
-
-footer .col li {
-    list-style: none;
-    margin-bottom: 10px;
-}
-
-footer .col ol li a {
-    text-decoration: none;
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-footer p {
-    font-size: 19px;
-    margin: 0 0 0 8px 0;
-}
-
-footer a {
-    font-size: 16px;
-    text-decoration: none;
-    color: #b8c0e4;
-    margin-bottom: 10px;
-}
-
-footer a:hover {
-    color: #7068a4;
-    opacity: 0.8;
-    transition: 0.4s ease-in-out;
-}
-
-footer .copyright {
-    width: 100%;
-    text-align: center;
-}
-/* The footer section ends  */
 
 /* Start the media query */
 @media (max-width: 740px) {
-    
+
     /* The banner section starts */
     #banner {
         background-repeat: no-repeat;
@@ -593,18 +527,19 @@ footer .copyright {
 
     #banner h4 {
         font-size: 25px;
-        padding: 0 0 2px 0 ;
+        padding: 0 0 2px 0;
     }
 
     #banner h2 {
         font-size: 35px;
-        padding: 0 0 2px 0 ;
+        padding: 0 0 2px 0;
     }
 
     #banner h1 {
         font-size: 34px;
-        padding: 0 0 2px 0 ;
+        padding: 0 0 2px 0;
     }
+
     /* The banner section ends */
 
 
@@ -629,13 +564,14 @@ footer .copyright {
     }
 
     #title p {
-       margin-left: auto;
-       margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #limited {
-    margin-top: -124%;
+        margin-top: -124%;
     }
+
     /* The about us section ends  */
 
     /* The small banner section starts  */
@@ -649,24 +585,11 @@ footer .copyright {
     #sm-banner .banner-box2 {
         margin-top: 30px;
     }
+
     /* The small banner section ends  */
 
     table {
         margin-left: -30px;
     }
-
-    
-    
 }
-
-
-
-
-
-
 /* End the media query */
-
-
-
-
-

@@ -3,94 +3,130 @@
 	#Barney table, th, td {
 		border: 					1px solid black;
 		border-collapse: 			collapse;
-		table-layout: 			fixed;
-		width: 					100%;
+		table-layout: 				fixed;
+		width: 						100%;
 		line-height: 				2;
-		width:					75%;
+		width:						75%;
 		padding:					10px;
+	}
+
+	#Barney th {
+		background-color:			#7068a4;
+	}
+
+	#Introduction h1 {
+		/* border: 1px solid blue; */
+		text-align: center;
+		padding: 1em auto;
+		margin-top: 1em;
+		font-family: sans-serif;
+		font-weight: 900;
+		font-size: 40px;
+		letter-spacing: 3px;
+	}
+
+	#Introduction p {
+		text-align: center;
+		margin: 1em auto;
+		width: 50vw;
+		max-width: 620px;
+		font-family: serif;
+		font-size: large;
+	}
+	  
+	#Barney td {
+		text-align: 				center;
 	  }
 	  
-	  #Barney td {
-		  text-align: 			center;
-	  }
-	  
-	  #Barney aside {
+	  #Barney figure {
 		  float:					right;
 		  width:					330px;
-		  /*	background-color:	blue;	*/				/* Visualized section for easy testing */
+		  /*	background-color:	blue;	*/					/* Visualized section for easy testing */
 		  height:					510px;
-		  margin-right:			3%;						/* Margin aligns whole section */
+		  margin-right:				0%;							/* Margin aligns whole section */
 	  }
 	  
 	  #Barney dd {
 		  font-size:				150%;
-		  line-height:			2;
+		  line-height:				2;
 	  }
 	  
 	  #Barney dt {
 		  font-size:				200%;
-		  font-family:			mincho;
+		  font-family:				mincho;
 	  }
 	  
 	  #Barney dl {
-		  padding-left:			5%;						/* Padding aligns text in section */
+		  padding-left:				5%;							/* Padding aligns text in section */
 		  padding-right:			5%;
 	  }
 	  
 	  #Barney p {
-		  font-size:				80%;
+		font-size: large;
+		font-family: serif;
+		font-weight: lighter;
 	  }
+
+	#purple_line {
+		height: 1.5px;
+		border-radius: 45px;
+		width: 60px;
+		background-color: red;
+		margin: 0 auto;
+		margin-bottom:				50px;
+	}
 	  
 	  #Barney .center {											/* Centering Images in aside */
-		  /*	display: 			block;
-			  margin-left: 		auto;
-			  margin-right: 		auto;
-			  margin-top:			115px;
-			  width: 				auto;	*/				/* Manually adjusting picture, inconvenient */
+			/*	display: 			block;
+				margin-left: 		auto;
+				margin-right: 		auto;
+				margin-top:			115px;
+			  	width: 				auto;	*/					/* Manually adjusting picture, inconvenient */
 			  
-		  position:				relative;
-		  top: 					50%;
+		  position:					relative;
+		  top: 						50%;
 		  left: 					50%;
-		  transform: 				translate(-50%, -50%);	/* bring your own prefixes */
+		  transform: 				translate(-50%, -50%);		/* bring your own prefixes */
 		  
 		  /* https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/ */
 	  }
 	  
-	  #Barney img {																			/* Image size */
+	  #Barney img {																		/* Image size */
 		  /*	width:	300px;
-			  height:	400px;	*/														/* Orginal Scale */
+			  	height:	400px;	*/														/* Orginal Scale */
 		  /*	width:	150px;
-			  height:	200px;	*/														/* 1st Adjustment */
+			  	height:	200px;	*/														/* 1st Adjustment */
 		  width:					270px;
 		  height:					360px;
 		  border-radius: 			25px;
-		  border: 				2px solid #7068a4;									/* Coloring border */
+		  border: 					2px solid #7068a4;										/* Coloring border */
 	  }
 	  
 	  /*	span {
 		  width: 					200px;
 		  clear: 					left;
 		  float: 					left;
-		  text-align: 			right;
+		  text-align: 				right;
 		  padding-right: 			2px;
 	  }	*/
 	  
 	  #Barney .box {
 		border-radius: 			25px;
 		border: 					2px solid #7068a4;									/* Coloring border */
-		padding: 					0px; 
-		width: 					1600px;
+		width: 					1500px;
 		height: 					auto;
 		display: 					block;
 		margin-left: 				auto;
-		margin-right: 			auto;
+		margin-right: 				auto;
+		padding:					50px;
+		margin-bottom:				50px;
 	  }
 	  
 		  /* CSS Link Hover Effect (Email)	https://css-tricks.com/css-link-hover-effects/	*/
 	  
 	  #Barney a {
 		box-shadow: 				inset 0 0 0 0 #7068a4;								/* Replacing #54b3d6 */
-		color: 					#7068a4;											/* Replacing #54b3d6 */
+		color:						#7068a4;											/* Replacing #54b3d6 */
 		margin: 					0 -.25rem;
 		padding: 					0 .25rem;
 		transition: 				color .5s ease-in-out, box-shadow .5s ease-in-out;	/* Replacing both 0.3s */
