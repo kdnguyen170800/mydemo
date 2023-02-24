@@ -48,35 +48,27 @@ body {
 	margin-bottom: 50px;
 }
 
+.box_line {
+	border: 3px solid green;
+	display: flex;
+}
 /* CSS Link Hover Effect (Email)	https://css-tricks.com/css-link-hover-effects/	*/
 
 #container figure {
+	border: 1px solid red;
 	float: right;
-	width: 330px;
-	/*	background-color:	blue;	*/
-	/* Visualized section for easy testing */
-	height: 510px;
 	margin-right: 0%;
-	/* Margin aligns whole section */
 }
 
-#container .center {
-	/* Centering Images in aside */
-	/*	display: 			block;
-			margin-left: 		auto;
-			margin-right: 		auto;
-			margin-top:			115px;
-			width: 				auto;	*/
-	/* Manually adjusting picture, inconvenient */
 
+/* #container .center {
 	position: relative;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	/* bring your own prefixes */
 
-	/* https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/ */
-}
+	https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/
+} */
 
 #container img {
 	/* Image size */
@@ -94,20 +86,14 @@ body {
 }
 
 #container dl {
-	padding-left: 5%;
-	/* Padding aligns text in section */
-	padding-right: 5%;
+	border: 1px solid red;
 }
 
 #container dt {
-	/* Group member name */
 	font-size: 150%;
 	font-family: mincho;
 	line-height: 2;
 	font-weight: bolder;
-	/*	font-weight: bolder;
-			letter-spacing: 1.2px;
-			padding-bottom: 10px; */
 }
 
 #container dd {
