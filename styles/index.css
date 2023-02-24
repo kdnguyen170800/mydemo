@@ -26,6 +26,7 @@ h6 {
 #section1 {
   background-color: black;
   border-bottom: 1px solid white;
+  position: relative;
 }
 
 #hr1 {
@@ -39,7 +40,8 @@ h6 {
   background-color: white;
   padding-bottom: 50px;
   position: absolute;
-    top: 120%;
+    /* top: 120%; */
+    top: 80%;
 }
 
 #title1 h6 {
@@ -92,7 +94,7 @@ h6 {
 }
 
 #section2 {
-  padding: 10% 0;
+  padding: 10% 0 20% 0;
   width: 50%;
   position: relative;
   float: left;
@@ -107,7 +109,7 @@ h6 {
   margin: 0 10%;
   border: 1px solid black;
   position: absolute;
-    top: 70%; 
+    top: 60%; 
   background-color: white;
   position: absolute;
 }
@@ -135,7 +137,7 @@ h6 {
 }
 
 #section3 {
-  padding: 10% 0;
+  padding: 10% 0 20% 0;
   width: 50%;
   position: relative;
   float: left;
@@ -152,7 +154,7 @@ h6 {
   margin: 0 10%;
   border: 1px solid black;
   position: absolute;
-    top: 70%; 
+    top: 60%; 
   background-color: white;
   position: absolute;
 }
@@ -160,7 +162,7 @@ h6 {
 #section4 {
   display: block;
   float: left;
-  margin-bottom: 15%;
+  margin-bottom: 20%;
   position: relative;
 }
 
@@ -177,7 +179,7 @@ h6 {
   background-color: white;
   border: 1px solid black;
   position: absolute;
-    top: 80%;
+    top: 75%;
   min-width: 70%;
 }
 

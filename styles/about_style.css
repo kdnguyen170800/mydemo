@@ -1,272 +1,226 @@
-	/* CSS for About.html Template */
+	/*	The container section starts.	*/
 
-	#Barney table, th, td {
-		border: 					1px solid black;
-		border-collapse: 			collapse;
-		table-layout: 				fixed;
-		width: 						100%;
-		line-height: 				2;
-		width:						75%;
-		padding:					10px;
-	}
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: white;
+}
 
-	#Barney th {
-		background-color:			#7068a4;
-	}
+#Introduction h1 {
+	text-align: center;
+	padding: 1em auto;
+	margin-top: 1em;
+	font-family: sans-serif;
+	font-weight: 900;
+	font-size: 40px;
+	letter-spacing: 3px;
+}
 
-	#Introduction h1 {
-		/* border: 1px solid blue; */
-		text-align: center;
-		padding: 1em auto;
-		margin-top: 1em;
-		font-family: sans-serif;
-		font-weight: 900;
-		font-size: 40px;
-		letter-spacing: 3px;
-	}
+#Introduction p {
+	text-align: center;
+	margin: 1em auto;
+	width: 50vw;
+	max-width: 620px;
+	font-family: serif;
+	font-size: large;
+}
 
-	#Introduction p {
-		text-align: center;
-		margin: 1em auto;
-		width: 50vw;
-		max-width: 620px;
-		font-family: serif;
-		font-size: large;
-	}
-	  
-	#Barney td {
-		text-align: 				center;
-	  }
-	  
-	  #Barney figure {
-		  float:					right;
-		  width:					330px;
-		  /*	background-color:	blue;	*/					/* Visualized section for easy testing */
-		  height:					510px;
-		  margin-right:				0%;							/* Margin aligns whole section */
-	  }
-	  
-	  #Barney dd {
-		  font-size:				150%;
-		  line-height:				2;
-	  }
-	  
-	  #Barney dt {
-		  font-size:				200%;
-		  font-family:				mincho;
-	  }
-	  
-	  #Barney dl {
-		  padding-left:				5%;							/* Padding aligns text in section */
-		  padding-right:			5%;
-	  }
-	  
-	  #Barney p {
-		font-size: large;
-		font-family: serif;
-		font-weight: lighter;
-	  }
+#purple_line {
+	height: 1.5px;
+	border-radius: 45px;
+	width: 60px;
+	background-color: red;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
 
-	#purple_line {
-		height: 1.5px;
-		border-radius: 45px;
-		width: 60px;
-		background-color: red;
-		margin: 0 auto;
-		margin-bottom:				50px;
-	}
-	  
-	  #Barney .center {											/* Centering Images in aside */
-			/*	display: 			block;
-				margin-left: 		auto;
-				margin-right: 		auto;
-				margin-top:			115px;
-			  	width: 				auto;	*/					/* Manually adjusting picture, inconvenient */
-			  
-		  position:					relative;
-		  top: 						50%;
-		  left: 					50%;
-		  transform: 				translate(-50%, -50%);		/* bring your own prefixes */
-		  
-		  /* https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/ */
-	  }
-	  
-	  #Barney img {																		/* Image size */
-		  /*	width:	300px;
-			  	height:	400px;	*/														/* Orginal Scale */
-		  /*	width:	150px;
-			  	height:	200px;	*/														/* 1st Adjustment */
-		  width:					270px;
-		  height:					360px;
-		  border-radius: 			25px;
-		  border: 					2px solid #7068a4;										/* Coloring border */
-	  }
-	  
-	  /*	span {
+#box_container {
+	padding: 20px 40px;
+}
+
+#box_container .box {
+	border-radius: 25px;
+	border: 2px solid var(--nav-background);
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom: 50px;
+}
+
+.box_line {
+	border: 3px solid green;
+	display: flex;
+}
+/* CSS Link Hover Effect (Email)	https://css-tricks.com/css-link-hover-effects/	*/
+
+#container figure {
+	border: 1px solid red;
+	float: right;
+	margin-right: 0%;
+}
+
+
+/* #container .center {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/
+} */
+
+#container img {
+	/* Image size */
+	/*	width:	300px;
+			  	height:	400px;	*/
+	/* Orginal Scale */
+	/*	width:	150px;
+			  	height:	200px;	*/
+	/* 1st Adjustment */
+	width: 270px;
+	height: 360px;
+	border-radius: 25px;
+	border: 2px solid #7068a4;
+	/* Coloring border */
+}
+
+#container dl {
+	border: 1px solid red;
+}
+
+#container dt {
+	font-size: 150%;
+	font-family: mincho;
+	line-height: 2;
+	font-weight: bolder;
+}
+
+#container dd {
+	/* Description information */
+	font-size: 100%;
+	line-height: 2;
+	font-family: mincho;
+}
+
+#container table,
+th,
+td {
+	border: 1px solid black;
+	/* Table details*/
+	border-collapse: collapse;
+	table-layout: fixed;
+	width: 100%;
+	line-height: 2;
+	padding: 10px;
+}
+
+#container th {
+	background-color: #7068a4;
+}
+
+#container td {
+	/* Table data */
+	text-align: center;
+}
+
+#container td p {
+	font-size: large;
+	font-family: serif;
+	font-weight: lighter;
+}
+
+/*	span {
 		  width: 					200px;
 		  clear: 					left;
 		  float: 					left;
 		  text-align: 				right;
 		  padding-right: 			2px;
 	  }	*/
-	  
-	  #Barney .box {
-		border-radius: 			25px;
-		border: 					2px solid #7068a4;									/* Coloring border */
-		width: 					1500px;
-		height: 					auto;
-		display: 					block;
-		margin-left: 				auto;
-		margin-right: 				auto;
-		padding:					50px;
-		margin-bottom:				50px;
-	  }
-	  
-		  /* CSS Link Hover Effect (Email)	https://css-tricks.com/css-link-hover-effects/	*/
-	  
-	  #Barney a {
-		box-shadow: 				inset 0 0 0 0 #7068a4;								/* Replacing #54b3d6 */
-		color:						#7068a4;											/* Replacing #54b3d6 */
-		margin: 					0 -.25rem;
-		padding: 					0 .25rem;
-		transition: 				color .5s ease-in-out, box-shadow .5s ease-in-out;	/* Replacing both 0.3s */
-	  }
-	  #Barney a:hover {
-		box-shadow: 				inset 350px 0 0 0 #7068a4;							/* Replacing #54b3d6 */
-		color: 					white;
-	  }
-	  
-		  /* DucManh's CSS Reference */
-		  
-	  /* The header section starts */
-	  
-	  #header .logo { 
-		  /* color: var(--main-color); */
-		  color: white;
-		  font-size: 36.8px;
-		  text-decoration: none;
-		  font-size: 150%;
-	  }
-	  
-	  #header {
-		  display: flex;
-		  justify-items: center;
-		  justify-content: space-between;
-		  padding: 20px 80px;
-		  /* background: #b8c0e4; */
-		  background: #1A001A;
-		  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
-		  z-index: 999;
-		  position: sticky;
-		  top: 0;
-		  left: 0;
-	  }
-	  
-	  #navbar {
-		  display: flex;
-		  justify-content: center;
-		  justify-items: center;
-	  }
-	  
-	  #navbar li {
-		  list-style: none;
-		  padding: 0px 20px;
-		  position: relative;
-	  }
-	  
-	  #navbar li a {
-		  text-decoration: none;
-		  font-size: 16px;
-		  font-weight: 600;
-		  /* color: #16161D; */
-		  /* color: #b8c0e4; */
-		  color: white;
-		  transition: 0.4s ease-in-out;
-	  }
-	  
-	  #navbar li a:hover,
-	  #navbar li a.active {
-		  color: #7068a4;
-		  opacity: 0.8;
-	  }
-	  
-	  #navbar li a.active::after,
-	  #navbar li a:hover::after {
-		  content: "";
-		  width: 30%;
-		  height: 2px;
-		  background: #7068a4;
-		  position: absolute;
-		  bottom: -2px;
-		  left: 20px;
-		  transition: 0.4s ease-out;
-	  }
-	  /* The header section ends */
-	  
-	  /* The footer section starts  */
-	  footer {
-		  padding: 40px 80px;
-		  /* background-color: #b8c0e4; */
-		  background-color: #1A001A;
-		  /* color: #1A001A; */
-		  color: #b8c0e4;
-		  display: flex;
-		  flex-wrap: wrap;
-		  justify-content: space-between;
-	  }
-	  
-	  footer .logo { 
-		  color: #fff;
-		  font-size: 36.8px;
-		  text-decoration: none;
-		  font-size: 150%;
-		  margin-bottom: 30px;
-	  }
-	  
-	  footer .col {
-		  display: flex;
-		  flex-direction: column;
-		  align-items: flex-start;
-		  margin-bottom: 20px;
-	  }
-	  
-	  footer h4 {
-		  font-size: 22px;
-		  padding-bottom: 20px;
-		  color: #fff;
-	  }
-	  
-	  footer .col li {
-		  list-style: none;
-		  margin-bottom: 10px;
-	  }
-	  
-	  footer .col ol li a {
-		  text-decoration: none;
-		  font-size: 18px;
-		  margin-bottom: 10px;
-	  }
-	  
-	  footer p {
-		  font-size: 19px;
-		  margin: 0 0 0 8px 0;
-	  }
-	  
-	  footer a {
-		  font-size: 16px;
-		  text-decoration: none;
-		  color: #b8c0e4;
-		  margin-bottom: 10px;
-	  }
-	  
-	  footer a:hover {
-		  color: #7068a4;
-		  opacity: 0.8;
-		  transition: 0.4s ease-in-out;
-	  }
-	  
-	  footer .copyright {
-		  width: 100%;
-		  text-align: center;
-	  }
-	  /* The footer section ends  */
+
+#container a {
+	box-shadow: inset 0 0 0 0 #7068a4;
+	/* Replacing #54b3d6 */
+	color: #7068a4;
+	/* Replacing #54b3d6 */
+	margin: 0 -.25rem;
+	padding: 0 .25rem;
+	transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+	/* Replacing both 0.3s */
+}
+
+#container a:hover {
+	box-shadow: inset 350px 0 0 0 #7068a4;
+	/* Replacing #54b3d6 */
+	color: white;
+}
+
+	/*	The container section ends.	*/
+
+/* DucManh's CSS Reference */
+
+/* The header section starts */
+
+#header .logo {
+	/* color: var(--main-color); */
+	color: white;
+	font-size: 36.8px;
+	text-decoration: none;
+	font-size: 150%;
+}
+
+#header {
+	display: flex;
+	justify-items: center;
+	justify-content: space-between;
+	padding: 20px 80px;
+	/* background: #b8c0e4; */
+	background: #1A001A;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.04);
+	z-index: 999;
+	position: sticky;
+	top: 0;
+	left: 0;
+}
+
+#navbar {
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+}
+
+#navbar li {
+	list-style: none;
+	padding: 0px 20px;
+	position: relative;
+}
+
+#navbar li a {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 600;
+	/* color: #16161D; */
+	/* color: #b8c0e4; */
+	color: white;
+	transition: 0.4s ease-in-out;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+	color: #7068a4;
+	opacity: 0.8;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+	content: "";
+	width: 30%;
+	height: 2px;
+	background: #7068a4;
+	position: absolute;
+	bottom: -2px;
+	left: 20px;
+	transition: 0.4s ease-out;
+}
+
+/* The header section ends */

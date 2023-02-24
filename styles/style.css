@@ -159,13 +159,17 @@ footer {
     padding: 15% 22%;
   }
 
+  nav{
+    position: sticky;
+  }
+
   nav ul li {
     display: block;
     font-size: 2em;
     margin-left: 0px;
     width: 100%;
     padding: 3%;
-    border-top: 1px solid white;
+    /* border-top: 1px solid white; */
   }
 
   #nav_bar li {
@@ -196,7 +200,7 @@ footer {
 
   ul {
     position: fixed;
-    top: 60px;
+    top: 45px;
     left: -100%;
     position: fixed;
     margin-top: 20%;

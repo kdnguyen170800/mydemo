@@ -2,56 +2,222 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible"  content="IE=edge">
-    <meta name="viewport"               content="width=device-width, initial-scale=1.0">
-    <meta name="description"            content="It's about us!">
-    <meta name="keywords"               content="HTML5/CSS">
-    <meta name="author"                 content="Le Minh Bani-Hashemi">
-    <title></title>
-    <link href="styles/style.css" 		rel="stylesheet">
-    <link href="styles/about_style.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="It's about us!">
+	<meta name="keywords" content="HTML5/CSS">
+	<meta name="author" content="Le Minh Bani-Hashemi">
+	<title></title>
+	<link href="styles/style.css" rel="stylesheet">
+	<link href="styles/about_style.css" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
 	<!--The header section starts-->
-
 	<header>
-        <a class="logo" href="#">CHRONO</a>
-        <nav>
-            <ul id="nav_bar">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="product.html">WATCHES</a></li>
-                <li><a href="enquire.html">ENQUIRY</a></li>
-                <li><a class="active" href="about.html">ABOUT</a></li>
-                <li><a href="enhancements.html">ENHANCEMENTS</a></li>
-            </ul>
-        </nav>
-    </header>
+		<a class="logo" href="#">CHRONO</a>
+		<nav>
+			<input id="check" type="checkbox">
+			<label class="checkbtn" for="check">
+				<div id="div-container">
+					<div class="menu-button"></div>
+					<div class="menu-button"></div>
+					<div class="menu-button"></div>
+				</div>
+			</label>
 
-    <!--The header section ends.-->
+			<ul id="nav_bar">
+				<li class="menu-item"><a href="index.html">HOME</a></li>
+				<li class="menu-item"><a href="product.html">WATCHES</a></li>
+				<li class="menu-item"><a href="enquire.html">ENQUIRY</a></li>
+				<li class="menu-item"><a class="active" href="about.html">ABOUT</a></li>
+				<li class="menu-item"><a href="enhancements.html">ENHANCEMENTS</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!--The header section starts-->
 
-	<div id="Barney">
-	<div id="Introduction">
-		<h1>ABOUT US</h1>
-		<p>
-			Founded 2 weeks ago, Chrono has risen to make the world's finest, 
-			most luxurious watch with deliberated precision and details increasing
-			sustainability for long-term purposes for all wearer. And by far, 
-			there are 4 main leaderships to run this potential organization.
-		</p>
-	</div>
-	<div id="purple_line"></div>
-		<div class = "box">
-			<div id="Leminh">
-				<figure>
-					<img src="images/avatar_LM.jpg" alt="Le Minh Bani-Hashemi" class="center">
-				</figure>
-				<dl>
-					<dt>Lê Minh Bani-Hashemi
-						<dd>Student ID: 103846074</dd>
+	<!--The container section starts.-->
+
+	<div id="container">
+		<div id="Introduction">
+			<h1>ABOUT US</h1>
+			<p>
+				Founded 2 weeks ago, Chrono has risen to make the world's finest,
+				most luxurious watch with deliberated precision and details increasing
+				sustainability for long-term purposes for all wearer. And by far,
+				there are 4 main leaderships to run this potential organization.
+			</p>
+		</div>
+		<div id="purple_line"></div>
+		<div id="box_container">
+			<div class="box leminh">
+				<div class="box_line">
+					<div class="info">
+						<dl>
+							<dt>Lê Minh Bani-Hashemi</dt>
+							<dd>Student ID: 103846074</dd>
+							<dd>Course: Software Techonology</dd>
+							<dd>Email: <a href="mailto:103846074@student.swin.edu.au">103846074@student.swin.edu.au</a>
+							</dd>
+							<dd>Favorite watch: Apex</dd>
+						</dl>
+					</div>
+					<div>
+						<figure>
+							<img src="images/avatar_LM.jpg" alt="Le Minh Bani-Hashemi">
+						</figure>
+					</div>
+				</div>
+				<table>
+					<tr>
+						<th>Sunday</th>
+						<th>Monday</th>
+						<th>Tuesday</th>
+						<th>Wednesday</th>
+						<th>Thursday</th>
+						<th>Friday</th>
+						<th>Saturday</th>
+					</tr>
+					<tr>
+						<td></td> <!-- Sunday -->
+						<td> <!-- Monday-->
+							<p>TNE10006</p>
+							<p>8 A.M - 11 A.M</p>
+							<p>1 P.M - 4 P.M</p>
+						</td>
+						<td> <!-- Tuesday -->
+							<p>COS20007</p>
+							<p>8 A.M - 12 P.M</p>
+						</td>
+						<td></td> <!-- Wednesday -->
+						<td> <!-- Thursday -->
+							<p>Vovinam 3</p>
+							<p>1 P.M - 3 P.M</p>
+						</td>
+						<td> <!-- Friday -->
+							<p>COS10026</p>
+							<p>8 A.M - 12 P.M</p>
+						</td>
+						<td></td> <!-- Saturday -->
+					</tr>
+				</table>
+			</div>
+
+			<div class="box">
+				<div id="DucManh">
+					<figure>
+						<img src="images/avatar_DM.jpg" alt="Hồ Đức Mạnh Nguyễn" class="center">
+					</figure>
+					<dl>
+						<dt>Hồ Đức Mạnh Nguyễn
+						<dd>Student ID: 104169549</dd>
 						<dd>Course: Software Techonology</dd>
-						<dd>Email: <a href="mailto:103846074@student.swin.edu.au">103846074@student.swin.edu.au</a></dd>
+						<dd>Email: <a href="mailto:104169549@student.swin.edu.au">104169549@student.swin.edu.au</a></dd>
+						<dd>Favorite watch: Zeniths</dd>
+						<dd>Timetable:
+							<table>
+								<tr>
+									<th>Sunday</th>
+									<th>Monday</th>
+									<th>Tuesday</th>
+									<th>Wednesday</th>
+									<th>Thursday</th>
+									<th>Friday</th>
+									<th>Saturday</th>
+								</tr>
+								<tr>
+									<td></td> <!-- Sunday -->
+									<td> <!-- Monday-->
+										<p>TNE10006</p>
+										<p>8 A.M - 11 A.M</p>
+										<p>1 P.M - 4 P.M</p>
+									</td>
+									<td> <!-- Tuesday -->
+										<p>COS20007</p>
+										<p>8 A.M - 12 P.M</p>
+									</td>
+									<td></td> <!-- Wednesday -->
+									<td> <!-- Thursday -->
+										<p>Vovinam 3</p>
+										<p>1 P.M - 3 P.M</p>
+									</td>
+									<td> <!-- Friday -->
+										<p>COS10026</p>
+										<p>8 A.M - 12 P.M</p>
+									</td>
+									<td></td> <!-- Saturday -->
+								</tr>
+							</table>
+						</dd>
+						</dt>
+					</dl>
+				</div>
+			</div>
+
+			<div class="box">
+				<div id="Khang">
+					<figure>
+						<img src="images/avatar_K.jpg" alt="Duy Khang Nguyễn" class="center">
+					</figure>
+					<dl>
+						<dt>Duy Khang Nguyễn
+						<dd>Student ID: 104056476</dd>
+						<dd>Course: Software Techonology</dd>
+						<dd>Email: <a href="mailto:104056476@student.swin.edu.au">104056476@student.swin.edu.au</a></dd>
+						<dd>Favorite watch: Radiance</dd>
+						<dd>Timetable:
+							<table>
+								<tr>
+									<th>Sunday</th>
+									<th>Monday</th>
+									<th>Tuesday</th>
+									<th>Wednesday</th>
+									<th>Thursday</th>
+									<th>Friday</th>
+									<th>Saturday</th>
+								</tr>
+								<tr>
+									<td></td> <!-- Sunday -->
+									<td> <!-- Monday-->
+										<p>TNE10006</p>
+										<p>8 A.M - 11 A.M</p>
+										<p>1 P.M - 4 P.M</p>
+									</td>
+									<td> <!-- Tuesday -->
+										<p>COS20007</p>
+										<p>8 A.M - 12 P.M</p>
+									</td>
+									<td></td> <!-- Wednesday -->
+									<td> <!-- Thursday -->
+										<p>Vovinam 3</p>
+										<p>1 P.M - 3 P.M</p>
+									</td>
+									<td> <!-- Friday -->
+										<p>COS10026</p>
+										<p>8 A.M - 12 P.M</p>
+									</td>
+									<td></td> <!-- Saturday -->
+								</tr>
+							</table>
+							</dt>
+					</dl>
+				</div>
+			</div>
+
+			<div class="box">
+				<div id="Hai">
+					<figure>
+						<img src="images/avatar_QH.jpg" alt="Quang Hải Lê" class="center">
+					</figure>
+					<dl>
+						<dt>Quang Hải Lê
+						<dd>Student ID: 104175779</dd>
+						<dd>Course: Software Techonology</dd>
+						<dd>Email: <a href="mailto:104175779@student.swin.edu.au">104175779@student.swin.edu.au</a></dd>
 						<dd>Favorite watch: </dd>
 						<dd>Timetable:
 							<table>
@@ -65,227 +231,49 @@
 									<th>Saturday</th>
 								</tr>
 								<tr>
-									<td></td>													<!-- Sunday -->
-									<td>														<!-- Monday-->
+									<td></td> <!-- Sunday -->
+									<td> <!-- Monday-->
 										<p>TNE10006</p>
 										<p>8 A.M - 11 A.M</p>
-										<p>1 P.M - 4 P.M</p>						
+										<p>1 P.M - 4 P.M</p>
 									</td>
-									<td>														<!-- Tuesday -->
+									<td> <!-- Tuesday -->
 										<p>COS20007</p>
 										<p>8 A.M - 12 P.M</p>
 									</td>
-									<td></td>													<!-- Wednesday -->
-									<td>														<!-- Thursday -->
+									<td></td> <!-- Wednesday -->
+									<td> <!-- Thursday -->
 										<p>Vovinam 3</p>
 										<p>1 P.M - 3 P.M</p>
-									</td>											
-									<td>														<!-- Friday -->
+									</td>
+									<td> <!-- Friday -->
 										<p>COS10026</p>
 										<p>8 A.M - 12 P.M</p>
 									</td>
-									<td></td>													<!-- Saturday -->
+									<td></td> <!-- Saturday -->
 								</tr>
 							</table>
 						</dd>
-					</dt>
-				</dl>
-			</div>
-		</div>
-
-		<div class = "box">
-			<div id="DucManh">
-				<figure>
-					<img src="images/avatar_DM.jpg" alt="Hồ Đức Mạnh Nguyễn" class="center">
-				</figure>
-				<dl>
-					<dt>Hồ Đức Mạnh Nguyễn
-						<dd>Student ID: 104169549</dd>
-						<dd>Course: Software Techonology</dd>
-						<dd>Email: <a href="mailto:104169549@student.swin.edu.au">104169549@student.swin.edu.au</a></dd>
-						<dd>Timetable:
-							<table>
-								<tr>
-									<th>Sunday</th>
-									<th>Monday</th>
-									<th>Tuesday</th>
-									<th>Wednesday</th>
-									<th>Thursday</th>
-									<th>Friday</th>
-									<th>Saturday</th>
-								</tr>
-								<tr>
-									<td></td>													<!-- Sunday -->
-									<td>														<!-- Monday-->
-										<p>TNE10006</p>
-										<p>8 A.M - 11 A.M</p>
-										<p>1 P.M - 4 P.M</p>						
-									</td>
-									<td>														<!-- Tuesday -->
-										<p>COS20007</p>
-										<p>8 A.M - 12 P.M</p>
-									</td>
-									<td></td>													<!-- Wednesday -->
-									<td>														<!-- Thursday -->
-										<p>Vovinam 3</p>
-										<p>1 P.M - 3 P.M</p>
-									</td>											
-									<td>														<!-- Friday -->
-										<p>COS10026</p>
-										<p>8 A.M - 12 P.M</p>
-									</td>
-									<td></td>													<!-- Saturday -->
-								</tr>
-							</table>
-						</dd>
-					</dt>
-				</dl>
-			</div>
-		</div>
-
-		<div class = "box">
-			<div id="Khang">
-				<figure>
-					<img src="images/avatar_K.jpg" alt="Duy Khang Nguyễn" class="center">
-				</figure>
-				<dl>
-					<dt>Duy Khang Nguyễn
-						<dd>Student ID: 104056476</dd>
-						<dd>Course: Software Techonology</dd>
-						<dd>Email: <a href="mailto:104056476@student.swin.edu.au">104056476@student.swin.edu.au</a></dd>
-						<dd>Timetable:
-							<table>
-								<tr>
-									<th>Sunday</th>
-									<th>Monday</th>
-									<th>Tuesday</th>
-									<th>Wednesday</th>
-									<th>Thursday</th>
-									<th>Friday</th>
-									<th>Saturday</th>
-								</tr>
-								<tr>
-									<td></td>													<!-- Sunday -->
-									<td>														<!-- Monday-->
-										<p>TNE10006</p>
-										<p>8 A.M - 11 A.M</p>
-										<p>1 P.M - 4 P.M</p>						
-									</td>
-									<td>														<!-- Tuesday -->
-										<p>COS20007</p>
-										<p>8 A.M - 12 P.M</p>
-									</td>
-									<td></td>													<!-- Wednesday -->
-									<td>														<!-- Thursday -->
-										<p>Vovinam 3</p>
-										<p>1 P.M - 3 P.M</p>
-									</td>											
-									<td>														<!-- Friday -->
-										<p>COS10026</p>
-										<p>8 A.M - 12 P.M</p>
-									</td>
-									<td></td>													<!-- Saturday -->
-								</tr>
-							</table>
-					</dt>
-				</dl>
-			</div>
-		</div>
-
-		<div class = "box">
-			<div id="Hai">
-				<figure>
-					<img src="images/avatar_QH.jpg" alt="Quang Hải Lê" class="center">
-				</figure>
-				<dl>
-					<dt>Quang Hải Lê
-						<dd>Student ID: 104175779</dd>
-						<dd>Course: Software Techonology</dd>
-						<dd>Email: <a href="mailto:104175779@student.swin.edu.au">104175779@student.swin.edu.au</a></dd>
-						<dd>Timetable:
-							<table>
-								<tr>
-									<th>Sunday</th>
-									<th>Monday</th>
-									<th>Tuesday</th>
-									<th>Wednesday</th>
-									<th>Thursday</th>
-									<th>Friday</th>
-									<th>Saturday</th>
-								</tr>
-								<tr>
-									<td></td>													<!-- Sunday -->
-									<td>														<!-- Monday-->
-										<p>TNE10006</p>
-										<p>8 A.M - 11 A.M</p>
-										<p>1 P.M - 4 P.M</p>						
-									</td>
-									<td>														<!-- Tuesday -->
-										<p>COS20007</p>
-										<p>8 A.M - 12 P.M</p>
-									</td>
-									<td></td>													<!-- Wednesday -->
-									<td>														<!-- Thursday -->
-										<p>Vovinam 3</p>
-										<p>1 P.M - 3 P.M</p>
-									</td>											
-									<td>														<!-- Friday -->
-										<p>COS10026</p>
-										<p>8 A.M - 12 P.M</p>
-									</td>
-									<td></td>													<!-- Saturday -->
-								</tr>
-							</table>
-						</dd>
-					</dt>
-				</dl>
+						</dt>
+					</dl>
+				</div>
 			</div>
 		</div>
 	</div>
 
-    <!-- The footer section starts -->
-    <footer>
-        <div class="col">
-            <a href="#" class="logo">CHRONO</a>
-            <h4>Contact</h4>
-            <p><strong>Address: </strong>743 Fifth Ave, New York</p>
-            <p><strong>Phone: </strong>(215) 998-8373-3938</p>
-            <p><strong>Hours: </strong>8:00 - 22:00, Mon - Sun</p>
-        </div>
+	<!--The container section ends.-->
 
-        <div class="col">
-            <ol>
-                <h4>Quick Access</h4>
-                <li><a href="#banner">Home</a></li>
-                <li><a href="#component">About</a></li>
-                <li><a href="#product">Our Collection</a></li>
-                <li><a href="#title-banner">Our World</a></li>
-            </ol>
-            <!-- <h4>About</h4>
-            <a href="#">About Us</a>
-            <a href="#">Delivery Information</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Contact Us</a> -->
-        </div>
-
-        <div class="col">
-            <h4>My Account</h4>
-            <a href="#">Sign In</a>
-            <a href="#">View Cart</a>
-            <a href="#">Track My Order</a>
-            <a href="#">Help</a>
-        </div>
-
-        <aside class="tagline">
-            <h4>Our Tagline</h4>
-            <p>Life is yours, Time is yours</p>
-        </aside>
-
-        <div class="copyright">
-            <p>© 2023 CHRONO - All intellectual property rights reserved</p>
-        </div>
-    </footer>
-    <!-- The footer section ends -->
+	<!--The footer section starts-->
+	<footer>
+		<h4 class="contact">CONTACT</h4>
+		<div class="footer_content">
+			<p>Address: A35 Bach Dang St, Ho Chi Minh city</p>
+			<p>Phone: (+84) 38-748-2345</p>
+			<p>Hours: 8:00 - 22:00, Mon - Sun</p>
+		</div>
+		<p class="copyright">© 2023 CHRONO</p>
+	</footer>
+	<!--The footer section ends-->
 
 </body>
 
