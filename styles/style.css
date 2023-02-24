@@ -159,6 +159,10 @@ footer {
     padding: 15% 22%;
   }
 
+  nav{
+    position: sticky;
+  }
+
   nav ul li {
     display: block;
     font-size: 2em;
@@ -196,7 +200,7 @@ footer {
 
   ul {
     position: fixed;
-    top: 60px;
+    top: 45px;
     left: -100%;
     position: fixed;
     margin-top: 20%;
