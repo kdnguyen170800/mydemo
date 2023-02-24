@@ -6,8 +6,7 @@ body {
     color: black;
 }
 
-h1 {
-    /* border: 1px solid blue; */
+#enquire_intro h1 {
     text-align: center;
     padding: 1em auto;
     margin-top: 1em;
@@ -17,8 +16,7 @@ h1 {
     letter-spacing: 3px;
 }
 
-p {
-    /* border: 1px solid blue; */
+#enquire_intro p {
     text-align: center;
     margin: 1em auto;
     width: 50vw;
@@ -27,7 +25,7 @@ p {
     font-size: large;
 }
 
-#purple_line {
+#red_line {
     height: 1.5px;
     border-radius: 45px;
     width: 60px;
@@ -41,7 +39,6 @@ form {
     min-width: 400px;
     margin: 0 auto;
     padding: 0px 20px 30px 20px;
-    /* border: 1px solid red; */
 }
 
 fieldset {
@@ -61,12 +58,10 @@ legend {
     flex-wrap: wrap;
     padding: 15px 0;
     justify-content: space-between;
-    /* border: 1px solid yellow; */
 }
 
 .box {
     width: calc(50% - 20px);
-    /* border: 1px solid green; */
 }
 
 .main_label {
@@ -91,7 +86,6 @@ select {
     font-size: large;
     font-family: serif;
     font-weight: lighter;
-    /* border: 1px solid black; */
 }
 
 input[type='text'],
@@ -102,7 +96,6 @@ select:focus {
 
 #radio_box {
     height: 60px;
-    /* border: 1px solid black; */
     font-size: large;
     display: flex;
     align-items: center;
@@ -127,7 +120,6 @@ select:focus {
 } */
 
 #checkbox_box {
-    /* border: 1px solid red; */
     display: flex;
     width: 100%;
     align-items: center;
@@ -137,18 +129,6 @@ select:focus {
     padding: 0 20px;
     flex-wrap: wrap;
 }
-
-/* #checkbox_box div {
-    border: 1px solid orange;
-} */
-
-/* #checkbox_box::before {
-    content: "";
-}
-
-#checkbox_box::after {
-    content: "";
-} */
 
 #checkbox_box label {
     font-family: serif;
@@ -175,9 +155,9 @@ textarea {
 }
 
 #button_container {
-    /* border: 1px solid orange; */
     justify-content: center;
     display: flex;
+    height: 150px;
 }
 
 .button {
