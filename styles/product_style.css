@@ -222,6 +222,7 @@ body {
     padding: 40px 80px;
     text-align: center;
     color: #1A001A;
+  
 }
 
 #history {
@@ -257,7 +258,6 @@ body {
 }
 
 #limited {
-    padding: 40px 80px;
     text-align: center;
     color: #c9c9c9;
     width: 25%;
@@ -311,7 +311,6 @@ body {
 #limited button:hover {
     opacity: 0.8;
 }
-
 
 
 /* The about us section ends */
