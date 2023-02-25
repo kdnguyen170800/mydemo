@@ -11,7 +11,7 @@ body {
   margin: 0;
 }
 
-h6 {
+.h6-index {
   font-size: 2em;
   font-weight: bold;
 }
@@ -196,11 +196,6 @@ h6 {
 #hr4 {
   width: 40%;
   margin-left: 10%;
-}
-
-
-.hr0 {
-  color: white;
 }
 
 @media (max-width: 740px) {
