@@ -11,7 +11,7 @@ html {
 }
 
 h1 {
-    font-size: 45px;
+    font: 45px Arial, sans-serif;
     line-height: 64px;
     color: #100C08;
 }
@@ -258,11 +258,12 @@ body {
     font-size: 19px;
 }
 
-#limited {
+#about-us aside {
     text-align: center;
     color: #c9c9c9;
     width: 25%;
     padding: 10px 12px;
+    margin: 0 1px;
     border: 1px solid var(--main-color);
     border-radius: 20px;
     float: right;
@@ -274,26 +275,26 @@ body {
 }
 
 
-#limited img {
+#about-us aside img {
     width: 100%;
 }
 
-#limited span {
+#about-us aside span {
     padding-bottom: 8px;
 }
 
-#limited h2 {
+#about-us aside h2 {
     color: #b9b9b9;
     font-size: 20px;
     line-height: 25px;
     padding-bottom: 7px;
 }
 
-#limited h5 {
+#about-us aside h5 {
     padding-bottom: 6px;
 }
 
-#limited button {
+#about-us aside button {
     display: inline-block;
     padding: 8px 10px;
     border-radius: var(--border-radius);
@@ -305,12 +306,12 @@ body {
 
 }
 
-#limited button a {
+#about-us aside button a {
     text-decoration: none;
     color: #bfb0b0;
 }
 
-#limited button:hover {
+#about-us aside button:hover {
     opacity: 0.8;
 }
 
