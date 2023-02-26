@@ -11,7 +11,7 @@ html {
 }
 
 h1 {
-    font-size: 45px;
+    font: 45px Arial, sans-serif;
     line-height: 64px;
     color: #100C08;
 }
