@@ -60,7 +60,7 @@ legend {
     justify-content: space-between;
 }
 
-.box {
+.form_box {
     width: calc(50% - 20px);
 }
 
@@ -75,9 +75,9 @@ legend {
     color: red;
 }
 
-input[type='text'],
-input[type='email'],
-select {
+.form_box input[type='text'],
+.form_box input[type='email'],
+.form_box select {
     background: transparent;
     border: none;
     border-bottom: 1px solid lightgray;
@@ -88,9 +88,9 @@ select {
     font-weight: lighter;
 }
 
-input[type='text'],
-input[type='email'],
-select:focus {
+.form_box input[type='text'],
+.form_box input[type='email'],
+.form_box select:focus {
     outline: none;
 }
 
@@ -113,11 +113,6 @@ select:focus {
 #radio_box label {
     font-family: serif;
 }
-
-/* #radio_box div {
-    border: 1px solid orange; 
-    width: 30%
-} */
 
 #checkbox_box {
     display: flex;
@@ -160,7 +155,7 @@ textarea {
     height: 150px;
 }
 
-.button {
+.form_button {
     margin: 15px 15px 15vh 15px;
     width: 200px;
     height: 40px;
@@ -175,7 +170,7 @@ textarea {
     z-index: 1;
 }
 
-.button::after {
+.form_button::after {
     content: "";
     background: var(--nav-active);
     position: absolute;
@@ -189,12 +184,12 @@ textarea {
     transition: transform 430ms ease-in;
 }
 
-.button:hover::after {
+.form_button:hover::after {
     transform: scaleX(1);
 }
 
 @media (max-width: 740px) {
-    .box {
+    .form_box {
         width: 100%;
         margin: 15px 0;
     }

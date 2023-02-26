@@ -1,5 +1,13 @@
-/* This is the stylesheet for header and footer in used in all pages
-Created by Khang, edited by Hai */
+/* 
+filename: style.css 
+author: Nguyen Duy Khang
+author: 
+author: 
+author: 
+created: 10/02/2023
+last modified: 27/02/2023
+description: main css for all html files
+*/
 
 /* CSS applies to all starts */
 :root {
@@ -15,6 +23,7 @@ Created by Khang, edited by Hai */
   font-family: sans-serif;
   list-style: none;
 }
+
 /* CSS applies to all ends */
 
 /* The header section starts */
@@ -32,7 +41,6 @@ header {
 
 .logo {
   display: block;
-  border: 0.5px solid white;
   padding: 4px 10px;
   color: white;
   text-decoration: none;
@@ -102,6 +110,17 @@ header nav {
 
 /* The header section ends */
 
+/* The body section starts */
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: white;
+  color: black;
+}
+
+/* The body section ends */
+
 /* The footer section starts */
 footer {
   display: block;
@@ -131,6 +150,204 @@ footer {
 
 /* The footer section ends */
 
+/* inhdex.html starts */
+/* inhdex.html ends */
+
+/* product.html starts */
+/* product.html ends */
+
+/* enquire.html starts */
+#enquire_intro h1 {
+  text-align: center;
+  padding: 1em auto;
+  margin-top: 1em;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+#enquire_intro p {
+  text-align: center;
+  margin: 1em auto;
+  width: 50vw;
+  max-width: 620px;
+  font-family: serif;
+  font-size: large;
+}
+
+#red_line {
+  height: 1.5px;
+  border-radius: 45px;
+  width: 60px;
+  background-color: red;
+  margin: 0 auto;
+}
+
+form {
+  width: 80vw;
+  max-width: 840px;
+  min-width: 400px;
+  margin: 0 auto;
+  padding: 0px 20px 30px 20px;
+}
+
+fieldset {
+  margin: 40px 0;
+  padding: 10px;
+  border: 0;
+}
+
+legend {
+  font-weight: bolder;
+  letter-spacing: 1.2px;
+  padding-bottom: 10px;
+}
+
+.form_line {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px 0;
+  justify-content: space-between;
+}
+
+.form_box {
+  width: calc(50% - 20px);
+}
+
+.main_label {
+  font-size: x-small;
+  letter-spacing: 2.5px;
+  font-weight: bolder;
+}
+
+.main_label::after {
+  content: "*";
+  color: red;
+}
+
+.form_box input[type='text'],
+.form_box input[type='email'],
+.form_box select {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  height: 60px;
+  font-size: large;
+  font-family: serif;
+  font-weight: lighter;
+}
+
+.form_box input[type='text'],
+.form_box input[type='email'],
+.form_box select:focus {
+  outline: none;
+}
+
+#radio_box {
+  height: 60px;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#radio_box::before {
+  content: "";
+}
+
+#radio_box::after {
+  content: "";
+}
+
+#radio_box label {
+  font-family: serif;
+}
+
+#checkbox_box {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  font-size: large;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+#checkbox_box label {
+  font-family: serif;
+}
+
+#comment_label {
+  font-size: x-small;
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
+
+#comment_line {
+  display: flex;
+  align-items: top;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  font-family: serif;
+  font-size: large;
+  margin: 10px 0 0 0;
+  border: 1px solid lightgray;
+}
+
+#button_container {
+  justify-content: center;
+  display: flex;
+  height: 150px;
+}
+
+.form_button {
+  margin: 15px 15px 15vh 15px;
+  width: 200px;
+  height: 40px;
+  letter-spacing: 2.5px;
+  font-weight: bolder;
+  font-size: smaller;
+  color: white;
+  background-color: var(--nav-background);
+  border: none;
+  letter-spacing: 3px;
+  position: relative;
+  z-index: 1;
+}
+
+.form_button::after {
+  content: "";
+  background: var(--nav-active);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 430ms ease-in;
+}
+
+.form_button:hover::after {
+  transform: scaleX(1);
+}
+
+/* enquire.html ends */
+
+/* about.html starts */
+/* about.html ends */
+
+/* enhancements.html starts */
+/* enhancements.html ends */
+
+/* Hidden elements starts */
 #check {
   display: none;
 }
@@ -150,16 +367,19 @@ footer {
   border-radius: 20%;
 }
 
+/* Hidden elements ends */
+
+/* The responsive section starts */
 @media (max-width: 740px) {
 
-  /* Header's responsive  */
+  /* Header's responsive starts*/
   header {
     background-color: var(--nav-background);
     height: 50px;
     padding: 15% 22%;
   }
 
-  nav{
+  nav {
     position: sticky;
   }
 
@@ -169,7 +389,6 @@ footer {
     margin-left: 0px;
     width: 100%;
     padding: 3%;
-    /* border-top: 1px solid white; */
   }
 
   #nav_bar li {
@@ -214,9 +433,20 @@ footer {
   #check:checked~ul {
     left: 0;
   }
+
+  /* Header's responsive ends*/
+
+  /* enquire's responsive starts*/
+  .form_box {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .form_line {
+    padding: 0 0;
+  }
+
+  /* enquire's responsive ends*/
 }
 
-
-
-/* This is the Index's stylesheet */
-
+/* The responsive section ends */
