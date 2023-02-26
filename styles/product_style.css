@@ -220,20 +220,20 @@ body {
 
 /* The about us section starts */
 #about-us {
-    padding: 40px 80px;
     text-align: center;
     color: #1A001A;
-
+    padding: 40px;
 }
 
 #history {
     background-color: #ccd7e0;
     padding: 50px;
-    margin-left: -80px;
+    margin-right: 30%;
     border-radius: 20px;
     line-height: 25px;
     width: 70%;
     position: relative;
+    display: inline-block;
 }
 
 #history h2 {
@@ -268,8 +268,9 @@ body {
     float: right;
     position: absolute;
     right: 0;
-    margin-top: -50%;
+    display: inline;
     background-color: #100C08;
+    vertical-align: top;
 }
 
 
@@ -316,18 +317,11 @@ body {
 
 /* The about us section ends */
 
-
-
-
 /* The product section starts */
 #product {
     padding: 40px 80px;
     text-align: center;
     color: #1A001A;
-}
-
-#product h2 {
-    padding-top: 130px;
 }
 
 #product .pro-container {
@@ -554,8 +548,16 @@ table tr td.active-row {
     /* The component section ends */
 
     /* The about us section starts  */
+    #about-us {
+        padding: 40px 80px 485px 80px;
+        text-align: center;
+        color: #1A001A;
+    
+    }
+    
     #history {
-        width: 90%;
+        width: 100%;
+        margin-bottom: 30px;
     }
 
     #title h2 {
@@ -569,7 +571,13 @@ table tr td.active-row {
     }
 
     #limited {
-        margin-top: -124%;
+        position: absolute;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        
+        
     }
 
     /* The about us section ends  */
