@@ -1,7 +1,7 @@
 /* 
 filename: style.css 
 author: Nguyen Duy Khang
-author: Le Quang Hai
+author: 
 author: 
 author: 
 created: 10/02/2023
@@ -215,7 +215,7 @@ footer {
   display: block;
   background-color: black;
   width: 20%;
-  height: 30em;
+  height: 20em;
   float: left;
   padding: 40% 0;
 }
@@ -270,7 +270,6 @@ footer {
 
 #title2 h6 {
   font-size: 1em;
-  font-family: Montserrat;
 }
 
 #ill2 img {
@@ -375,7 +374,7 @@ footer {
   }
   .watch-outline {
     width: 100%;
-    height: 40em;
+    height: 45em;
   }
   .watch {
     margin: auto;
