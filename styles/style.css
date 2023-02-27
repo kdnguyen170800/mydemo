@@ -21,7 +21,7 @@ description: main css for all html files
   margin: 0px;
   letter-spacing: 0.8px;
   font-family: sans-serif;
-  list-style: none;
+  /* list-style: none; */
 }
 
 /* CSS applies to all ends */
@@ -447,7 +447,8 @@ footer {
   margin: 0 auto;
 }
 
-form {
+form, #enhance_content {
+  /* border: 1px solid red; */
   width: 80vw;
   max-width: 840px;
   min-width: 400px;
@@ -608,6 +609,13 @@ textarea {
 /* about.html ends */
 
 /* enhancements.html starts */
+#enhance_container {
+  background-color: white;
+  height: 80vh;
+}
+
+#enhance_content {
+}
 /* enhancements.html ends */
 
 /* Hidden elements starts */
