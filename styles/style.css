@@ -728,8 +728,8 @@ textarea {
 	}
 
 	#container table,
-	th,
-	td {
+	#container th,
+	#container td {
 		border: 1px solid black;
 		/* Table details*/
 		border-collapse: collapse;
