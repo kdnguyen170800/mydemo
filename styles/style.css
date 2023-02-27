@@ -387,8 +387,9 @@ footer {
     opacity: 100%;
   }
   section div p {
-    font-size: 3em;
+    font-size: 1em;
   }
+
   #section2 {
     padding: 25% 0;
     width: 100%;
@@ -801,10 +802,23 @@ textarea {
 /* enhancements.html starts */
 #enhance_container {
   background-color: white;
-  height: 80vh;
+  min-height: 80vh;
 }
 
 #enhance_content {
+  border: 1px solid var(--nav-background);
+  padding: 30px 100px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+#enhance_content ol li {
+  margin: 20px 0;
+}
+
+#enhance_content ol a {
+  text-decoration: none;
 }
 /* enhancements.html ends */
 
