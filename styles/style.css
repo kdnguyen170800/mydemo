@@ -1277,7 +1277,7 @@ h4.product_h4 {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url(/images/sm-banner1.jpeg);
+  background-image: url(images/sm-banner1.jpeg);
   min-width: 580px;
   height: 50vh;
   background-size: cover;
@@ -1286,7 +1286,7 @@ h4.product_h4 {
 }
 
 #sm-banner .banner-box2 {
-  background-image: url(/images/sm-banner2.jpeg);
+  background-image: url(images/sm-banner2.jpeg);
 }
 
 #sm-banner h4 {
