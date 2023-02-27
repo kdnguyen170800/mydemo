@@ -1,4 +1,4 @@
-	/*	The container section starts.	*/
+	/*	The container "About Us" section starts.	*/
 
 	body {
 		width: 100%;
@@ -7,7 +7,7 @@
 		background-color: #ffffff;
 	}
 
-	#Introduction h1 {
+	#barney_container #Introduction h1 {
 		text-align: center;
 		padding: 1em auto;
 		margin-top: 1em;
@@ -17,7 +17,7 @@
 		letter-spacing: 3px;
 	}
 
-	#Introduction p {
+	#barney_container #Introduction p {
 		text-align: center;
 		margin: 1em auto;
 		width: 50vw;
@@ -26,7 +26,7 @@
 		font-size: large;
 	}
 
-	#purple_line {
+	#barney_container #purple_line {
 		height: 1.5px;
 		border-radius: 45px;
 		width: 60px;
@@ -35,11 +35,11 @@
 		margin-bottom: 50px;
 	}
 
-	#box_container {
+	#barney_container #box_container {
 		padding: 20px 40px;
 	}
 
-	#box_container .box {
+	#barney_container #box_container .box {
 		border-radius: 25px;
 		border: 2px solid var(--nav-background);
 		width: 100%;
@@ -48,14 +48,14 @@
 		margin-bottom: 50px;
 	}
 
-	.box_line {
+	#barney_container .box_line {
 		display: flex;
 		justify-content: space-evenly;
 	}
 
 	/* CSS Link Hover Effect (Email)	https://css-tricks.com/css-link-hover-effects/	*/
 
-	#container dt {
+	#barney_container #container dt {
 		padding-left: 25px;
 		font-size: 120%;
 		font-family: serif;
@@ -64,7 +64,7 @@
 		padding-top: 30px;
 	}
 
-	#container dd {
+	#barney_container #container dd {
 		/* Description information */
 		line-height: 2;
 		font-family: serif;
@@ -72,7 +72,7 @@
 		font-size: 100%;
 	}
 
-	.term {
+	#barney_container .term {
 		width: 170px;
 		float: left;
 		font-family: serif;
@@ -80,7 +80,7 @@
 		text-indent: 50px;
 	}
 
-	#container a {
+	#barney_container #container a {
 		font-family: serif;
 		box-shadow: inset 0 0 0 0 #7068a4;
 		/* Replacing #54b3d6 */
@@ -92,20 +92,20 @@
 		/* Replacing both 0.3s */
 	}
 
-	#container a:hover {
+	#barney_container #container a:hover {
 		box-shadow: inset 500px 0 0 0 #7068a4;
 		/* Replacing #54b3d6 */
 		color: white;
 	}
 
-	#container figure {
+	#barney_container #container figure {
 		float: right;
 		width: 210px;
 		height: 280px;
 		margin-top: 30px;
 	}
 
-	#container .center {
+	#barney_container #container .center {
 		position: relative;
 		top: 50%;
 		left: 50%;
@@ -114,7 +114,7 @@
 		/*	https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/	*/
 	}
 
-	#container img {
+	#barney_container #container img {
 		width: 210px;
 		height: auto;
 		border-radius: 25px;
@@ -122,7 +122,7 @@
 		/* Coloring border */
 	}
 
-	#container table,
+	#barney_container #container table,
 	th,
 	td {
 		border: 1px solid black;
@@ -135,18 +135,18 @@
 		margin: 35px auto;
 	}
 
-	#container th {
+	#barney_container #container th {
 		background-color: #7068a4;
 		font-family: serif;
 		font-weight: bolder;
 	}
 
-	.subject {
+	#barney_container .subject {
 		color: #7068a4;
 		font-family: serif;
 	}
 
-	#container td {
+	#barney_container #container td {
 		/* Table data */
 		text-align: center;
 		font-family: serif;
@@ -170,37 +170,37 @@
 		  padding-right: 			2px;
 	  }	*/
 
-	/*	The container section ends.	*/
-
 	@media (max-width: 740px) {
-		table {
+		#barney_container table {
 			margin-left: -30px;
 		}
 
-		.term {
+		#barney_container .term {
 			width: 140px;
 			text-indent: 40px;
 		}
 
-		#container figure {
+		#barney_container #container figure {
 			width: 150px;
 			height: 215px;
 		}
 
-		#container img {
+		#barney_container #container img {
 			width: 150px;
 		}
 
-		#container dd {
+		#barney_container #container dd {
 			width: 400px;
 			font-size: 80%;
 		}
 
-		#container dt {
+		#barney_container #container dt {
 			font-size: 100%;
 		}
 
-		#container table, th, td {
+		#barney_container #container table, th, td {
 			margin: 20px auto;
 		}
 	}
+
+		/*	The container "About Us" section ends.	*/
