@@ -151,7 +151,6 @@ footer {
 /* The footer section ends */
 
 /* inhdex.html starts */
-
 .h6-index {
   font-size: 2.5em;
   font-weight: bold;
@@ -182,7 +181,6 @@ footer {
   background-color: white;
   padding-bottom: 50px;
   position: absolute;
-    /* top: 120%; */
     top: 80%;
 }
 
@@ -413,7 +411,6 @@ footer {
     font-size: 1.3em;
   }
 }
-
 /* inhdex.html ends */
 
 /* product.html starts */
