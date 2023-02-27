@@ -60,7 +60,7 @@
                 <div class="form_box">
                     <label for="title" class="main_label">TITLE</label>
                     <select required id="title" name="title">
-                        <option value="mr">Mr.</option>
+                        <option value="">Mr.</option>
                         <option value="ms">Ms.</option>
                         <option value="mrs">Mrs.</option>
                     </select>
@@ -133,15 +133,15 @@
                     <label class="main_label">PREFERRED CONTACT</label>
                     <div id="radio_box">
                         <div>
-                            <input required type="radio" id="prefercontact" name="prefercontact" value="email">
+                            <input required type="radio" id="prefercontact_email" name="prefercontact" value="email">
                             <label>Email</label>
                         </div>
                         <div>
-                            <input type="radio" id="prefercontact" name="prefercontact" value="post">
+                            <input type="radio" id="prefercontact_post" name="prefercontact" value="post">
                             <label>Post</label>
                         </div>
                         <div>
-                            <input type="radio" id="prefercontact" name="prefercontact" value="phone">
+                            <input type="radio" id="prefercontact_phone" name="prefercontact" value="phone">
                             <label>Phone</label>
                         </div>
                     </div>
@@ -172,7 +172,7 @@
                 <label class="main_label">PRODUCT FEATURES</label>
                 <div id="checkbox_box">
                     <div>
-                        <input checked="true" type="checkbox" id="material" name="features[]" value="material">
+                        <input checked="checked" type="checkbox" id="material" name="features[]" value="material">
                         <label>Material</label>
                     </div>
                     <div>
