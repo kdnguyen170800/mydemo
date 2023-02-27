@@ -303,10 +303,6 @@ body {
     cursor: pointer;
     margin-top: 10px;
     font-size: 18px;
-
-}
-
-#about-us aside button a {
     text-decoration: none;
     color: #bfb0b0;
 }
@@ -380,13 +376,13 @@ body {
     font-weight: 700;
 }
 
-#type {
+.type {
     color: white;
     background-color: #1A001A;
     border: none;
 }
 
-table {
+#detail {
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9em;
@@ -396,30 +392,30 @@ table {
     margin-right: auto;
 }
 
-table tr th {
+#detail tr th {
     background-color: #100C08;
     color: #ffffff;
     text-align: left;
 }
 
-table th,
-table td {
+#detail th,
+#detail td {
     padding: 12px 15px;
 }
 
-table tr td {
+#detail tr td {
     border-bottom: 1px solid #dddddd;
 }
 
-table tr:nth-of-type(even) {
+#detail tr:nth-of-type(even) {
     background-color: #f3f3f3;
 }
 
-table tr:last-of-type {
+#detail tr:last-of-type {
     border-bottom: 2px solid #100C08;
 }
 
-table tr td.active-row {
+#detail tr td.active-row {
     font-weight: bold;
     color: #100C08;
 }
@@ -597,7 +593,7 @@ table tr td.active-row {
 
     /* The small banner section ends  */
 
-    table {
+    #detail {
         margin-left: -30px;
     }
 }
