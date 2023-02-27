@@ -1,7 +1,7 @@
 /* 
 filename: style.css 
 author: Nguyen Duy Khang
-author: 
+author: Nguyen Ho Duc Manh
 author: 
 author: 
 created: 10/02/2023
@@ -728,18 +728,6 @@ textarea {
 		/* Coloring border */
 	}
 
-	#container table,
-	th,
-	td {
-		border: 1px solid black;
-		/* Table details*/
-		border-collapse: collapse;
-		table-layout: fixed;
-		width: 80%;
-		line-height: 2;
-		padding: 5px;
-		margin: 35px auto;
-	}
 
 	#container th {
 		background-color: #7068a4;
